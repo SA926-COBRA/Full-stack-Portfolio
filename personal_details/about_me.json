@@ -1,0 +1,3 @@
+{
+  "write_about_yours":"To apply inline styles in React, you need to use the style attribute and provide an object with CSS properties. However, in your code, it seems you're trying to use CSS-in-JS syntax within JSX, which isn't the correct approach. Here's how you can fix it"
+}
