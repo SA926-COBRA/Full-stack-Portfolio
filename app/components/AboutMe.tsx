@@ -9,7 +9,7 @@ const AboutMe = () => {
           <Container>
             <div className="flex flex-col gap-2 sm:gap-4">
               <div className="font-semibold sm:text-3xl text-2xl">
-                About me
+                About Me
               </div>
               <div className="sm:w-[50%]">
                 {about_me.write_about_yours}

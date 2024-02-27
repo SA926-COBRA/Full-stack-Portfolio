@@ -1,22 +1,9 @@
 import React from 'react';
 import Container from "@/components/Container";
 import {Avatar, AvatarFallback} from "@/components/ui/avatar";
+import {renderSkills} from "@/app/components/MySkills";
 
 const SeparatorBar = ({data}: { data: HeroSection }) => {
-  const renderSkills = () => {
-    let count = 0;
-    return Object.entries(data.skills).map(([skill, value]) => {
-      if (value === true && count < 6) {
-        count++;
-        return (
-            <div key={skill}>
-              <div className="h-10 w-10 bg-foreground rounded-full"></div>
-            </div>
-        );
-      }
-      return null;
-    });
-  };
 
   return (
       <div className="sm:px-10 px-5 py-3 bg-background w-[100vw] relative left-[50%] right-[50%] ml-[-50vw] mr-[-50vw]">
@@ -32,8 +19,8 @@ const SeparatorBar = ({data}: { data: HeroSection }) => {
               <div className="uppercase w-60 border-l pl-3">projects completed worldwide</div>
             </div>
           </div>
-          <div className="flex gap-3">
-            {renderSkills()}
+          <div className="flex gap-3 mr-5">
+            {renderSkills(data.skills, 6)}
           </div>
           </div>
         </Container>
