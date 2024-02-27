@@ -21,7 +21,7 @@ const HeroSection = ({data}: Props) => {
     let count = 0;
     return Object.entries(social_media).map(([link, value]) => {
       if (value) {
-        return <div className="sm:w-9 sm:h-9 h-7 w-7 bg-foreground rounded-full flex justify-center items-center">
+        return <div key={value} className="sm:w-9 sm:h-9 h-7 w-7 bg-foreground rounded-full flex justify-center items-center">
               DP
             </div>;
       }
