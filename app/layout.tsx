@@ -27,7 +27,7 @@ export default function RootLayout({children,}: Readonly<{
       >
         <div className="flex flex-col min-h-screen">
           <Navbar />
-          <main className="flex-grow sm:p-10 p-5 bg-gradient-to-r sm:from-primary/20 from-primary ">
+          <main className="flex-grow sm:p-10 p-5 bg-gradient-to-r sm:from-primary/25">
             <Container>{children}</Container>
           </main>
           <Footer/>
