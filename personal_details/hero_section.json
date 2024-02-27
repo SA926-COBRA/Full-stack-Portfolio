@@ -1,0 +1,39 @@
+{
+  "intro": "Hello\uD83D\uDC4B, I'm Dragon Devs",
+  "job_title": "I'm a Full-Stack web Developer",
+  "title_description": "I build things for web.",
+  "social_media": {
+    "github":"https://github.com/dragon-devs",
+    "facebook": "",
+    "linkedin": "",
+    "instagram": "",
+    "twitter": "",
+    "behance": "",
+    "youtube": "",
+    "whatsapp": "+923075577010",
+    "other": ""
+  },
+  "experience_years": "3.5",
+  "projects_completed_count": "15",
+  "skills": {
+    "python": false,
+    "javascript": true,
+    "nodejs": true,
+    "reactjs": false,
+    "nextjs": true,
+    "html": true,
+    "css" : true,
+    "tailwindcss": true,
+    "cplusplus": false,
+    "csharp": false,
+    "express": true,
+    "django": true,
+    "sql": true,
+    "mongodb": true,
+    "ruby": false,
+    "java": false,
+    "kotlin": false,
+    "docker": true,
+    "reactnative": true
+  }
+}

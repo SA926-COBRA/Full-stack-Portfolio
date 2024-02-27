@@ -18,7 +18,7 @@ export default function RootLayout({children,}: Readonly<{
 }>) {
   return (
       <html lang="en">
-      <body className={inter.className}>
+      <body className={inter.className} >
       <ThemeProvider
           attribute="class"
           defaultTheme="system"
@@ -27,7 +27,7 @@ export default function RootLayout({children,}: Readonly<{
       >
         <div className="flex flex-col min-h-screen">
           <Navbar />
-          <main className="flex-grow sm:p-10 p-5">
+          <main className="flex-grow sm:p-10 p-5 bg-gradient-to-r sm:from-primary/20 from-primary/50 ">
             <Container>{children}</Container>
           </main>
           <Footer/>
