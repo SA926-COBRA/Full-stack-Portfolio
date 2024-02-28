@@ -1,10 +1,15 @@
 import React from 'react';
 import Container from "@/components/Container";
+import FrameworkIcons from "@/app/components/FrameworkIcons";
 
-const MySkills = ({skills}: { skills: object }) => {
+type Skills = {
+  [key: string]: boolean;
+};
+const MySkills = ({data}: { data: HeroSection }) => {
   return (
       <div id="skills">
-        <div className="p-5 border-t bg-background sm:p-10 w-[100vw] relative left-[50%] right-[50%] ml-[-50vw] mr-[-50vw]">
+        <div
+            className="p-5 border-t bg-background sm:p-10 w-[100vw] relative left-[50%] right-[50%] ml-[-50vw] mr-[-50vw]">
           <Container>
             <div className="flex justify-end items-end">
               <div className="flex flex-col gap-3">
@@ -15,7 +20,7 @@ const MySkills = ({skills}: { skills: object }) => {
                   Technologies I&apos;ve been working with recently.
                 </div>
                 <div className="sm:w-[23rem] flex gap-3 flex-wrap">
-                  {renderSkills(skills, 100)}
+                  <FrameworkIcons skills={data.skills as Skills} size={100} />
                 </div>
               </div>
             </div>
@@ -25,20 +30,4 @@ const MySkills = ({skills}: { skills: object }) => {
   );
 };
 
-export const renderSkills = (skills: object, size: number) => {
-  let count = 0;
-  return Object.entries(skills).map(([skill, value]) => {
-    if (value === true && count < size) {
-      count++;
-      return (
-          <div key={skill}>
-            <div className="sm:w-12 sm:h-12 h-10 w-10 bg-foreground rounded-full flex justify-center items-center">
-              DP
-            </div>
-          </div>
-      );
-    }
-    return null;
-  });
-};
 export default MySkills;

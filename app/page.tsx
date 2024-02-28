@@ -13,12 +13,12 @@ export default function Home() {
         <HeroSection data={hero_section}/>
         <div>
           <SeparatorBar data={hero_section}/>
-          <AboutMe />
-          <MySkills skills={hero_section.skills} />
-          <MyProjects />
-          <ContactSection />
+          <AboutMe/>
+          <MySkills data={hero_section}/>
+          <MyProjects/>
+          <ContactSection/>
         </div>
-        <Footer data={hero_section} />
+        <Footer data={hero_section}/>
       </main>
   );
 }

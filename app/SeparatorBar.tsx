@@ -1,8 +1,10 @@
 import React from 'react';
 import Container from "@/components/Container";
-import {Avatar, AvatarFallback} from "@/components/ui/avatar";
-import {renderSkills} from "@/app/MySkills";
+import FrameworkIcons from "@/app/components/FrameworkIcons";
 
+type Skills = {
+  [key: string]: boolean;
+};
 const SeparatorBar = ({data}: { data: HeroSection }) => {
 
   return (
@@ -19,8 +21,8 @@ const SeparatorBar = ({data}: { data: HeroSection }) => {
               <div className="uppercase w-60 border-l pl-3">projects completed worldwide</div>
             </div>
           </div>
-          <div className="flex gap-3 mr-5">
-            {renderSkills(data.skills, 6)}
+          <div className="flex flex-row gap-3 mr-5">
+            <FrameworkIcons skills={data.skills as Skills} size={6} />
           </div>
           </div>
         </Container>
