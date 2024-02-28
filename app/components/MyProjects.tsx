@@ -15,7 +15,7 @@ const MyProjects = () => {
             <div className="">
               <div className="flex flex-col gap-3">
                 <div className="font-semibold sm:text-3xl text-2xl">
-                  My Skills
+                  My Projects
                 </div>
                 <div className="text-lg">
                   Some things I&apos;ve built so far.

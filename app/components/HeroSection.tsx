@@ -31,13 +31,13 @@ const HeroSection = ({data}: Props) => {
         <div className="relative flex flex-col-reverse ">
           <div className="flex flex-col gap-3 sm:mt-0 mt-52 bg-background/35 pb-10 -mb-11 pt-3 sm:mb-0 sm:pt-0 sm:pb-0 sm:bg-transparent">
             <div className="font-bold text-lg sm:text-2xl ">{intro}</div>
-            <div className="font-black text-3xl sm:text-6xl text-primary/80 dark:text-primary/50 md:w-[50%]">{job_title}</div>
+            <div className="font-black text-4xl sm:text-6xl text-primary/80 dark:text-primary/50 md:w-[50%]">{job_title}</div>
             <div className="font-medium text-2xl sm:text-4xl">{title_description}</div>
             <div className="flex sm:gap-3 gap-2 capitalize">{renderSocialMedia()}</div>
           </div>
           <div>
-            <Image className="absolute sm:right-5  sm:h-[35rem] sm:w-auto sm:-top-20 -top-12 -z-10 "
-                   src="/portfolio_hero.png" alt="hero_picture" width={500} height={500}/>
+            <Image className="absolute sm:right-5 sm:-top-20 -top-12 -z-10 "
+                   src="/portfolio_hero.png" alt="hero_picture" width={450} height={800}/>
           </div>
         </div>
   );
