@@ -4,7 +4,7 @@ import ContactForm from "@/app/components/ContactForm";
 const ContactSection = () => {
   return (
       <div>
-        <ContactForm />
+        <ContactForm/>
       </div>
   );
 };

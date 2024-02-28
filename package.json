@@ -21,14 +21,17 @@
     "embla-carousel-react": "^8.0.0",
     "next": "14.1.0",
     "next-themes": "^0.2.1",
+    "nodemailer": "^6.9.10",
     "react": "^18",
     "react-dom": "^18",
+    "sonner": "^1.4.2",
     "standard-version": "^9.5.0",
     "tailwind-merge": "^2.2.1",
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@types/node": "^20",
+    "@types/nodemailer": "^6.4.14",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.0.1",

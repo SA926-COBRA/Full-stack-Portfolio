@@ -5,6 +5,7 @@ import {ThemeProvider} from "@/components/ThemeProvider";
 import Container from "@/components/Container";
 import Navbar from "@/app/Navbar";
 import Footer from "@/app/Footer";
+import {Toaster} from "@/components/ui/sonner";
 
 const inter = Inter({subsets: ["latin"]});
 
@@ -33,6 +34,7 @@ export default function RootLayout({children,}: Readonly<{
           <main className="flex-grow sm:p-10 p-5 bg-gradient-to-r sm:from-primary/25">
             <Container>{children}</Container>
           </main>
+          <Toaster position="top-center"/>
           <Footer/>
         </div>
       </ThemeProvider>
