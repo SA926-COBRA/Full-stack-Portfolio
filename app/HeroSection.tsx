@@ -28,8 +28,8 @@ const HeroSection = ({data}: Props) => {
   };
 
   return (
-        <div className="relative flex flex-col-reverse ">
-          <div className="flex flex-col gap-3 sm:mt-0 mt-52 bg-background/35 pb-10 -mb-11 pt-3 sm:mb-0 sm:pt-0 sm:pb-0 sm:bg-transparent">
+        <div className="relative flex flex-col-reverse">
+          <div className="flex flex-col gap-3 bg-background p-5 sm:mt-0 mt-52 pt-3 sm:mb-0 sm:pt-0 sm:pb-0 sm:bg-transparent">
             <div className="font-bold text-lg sm:text-2xl ">{intro}</div>
             <div className="font-black text-4xl sm:text-6xl text-primary/80 dark:text-primary/50 md:w-[50%]">{job_title}</div>
             <div className="font-medium text-2xl sm:text-4xl">{title_description}</div>
