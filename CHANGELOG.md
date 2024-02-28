@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.2](https://github.com/dragon-devs/my_portfolio/compare/v0.1.1...v0.1.2) (2024-02-28)
+
+
+### Features
+
+* build contact section ([8f610d8](https://github.com/dragon-devs/my_portfolio/commit/8f610d877fd18d576ed39bcfa0813d6a61b7c80f))
+* build my projects component + fixed bugs ([8040efb](https://github.com/dragon-devs/my_portfolio/commit/8040efbb3fc138a824326e77372b076f25bcd443))
+
+
+### Bug Fixes
+
+* fixed bugs + update metadata ([b287ab9](https://github.com/dragon-devs/my_portfolio/commit/b287ab96753f961eb9ffbc389a1a8c17b69fdb34))
+* **refactor:** refactor project components ([6ca244a](https://github.com/dragon-devs/my_portfolio/commit/6ca244a9bd3c9079c67a57573f41b09c13d66f7b))
+
 ### 0.1.1 (2024-02-27)
 
 
