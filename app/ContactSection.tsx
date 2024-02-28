@@ -3,7 +3,7 @@ import ContactForm from "@/app/components/ContactForm";
 
 const ContactSection = () => {
   return (
-      <div>
+      <div id="hire_me">
         <ContactForm/>
       </div>
   );

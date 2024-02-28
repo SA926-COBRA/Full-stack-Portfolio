@@ -5,6 +5,7 @@ import AboutMe from "@/app/AboutMe";
 import MySkills from "@/app/MySkills";
 import MyProjects from "@/app/MyProjects";
 import ContactSection from "@/app/ContactSection";
+import Footer from "@/app/Footer";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
           <MyProjects />
           <ContactSection />
         </div>
+        <Footer data={hero_section} />
       </main>
   );
 }

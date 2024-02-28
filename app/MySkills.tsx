@@ -3,7 +3,7 @@ import Container from "@/components/Container";
 
 const MySkills = ({skills}: { skills: object }) => {
   return (
-      <div>
+      <div id="skills">
         <div className="p-5 border-t bg-background sm:p-10 w-[100vw] relative left-[50%] right-[50%] ml-[-50vw] mr-[-50vw]">
           <Container>
             <div className="flex justify-end items-end">
@@ -11,7 +11,7 @@ const MySkills = ({skills}: { skills: object }) => {
                 <div className="font-semibold sm:text-3xl text-2xl">
                   My Skills
                 </div>
-                <div className="text-lg">
+                <div className="text-lg text-muted-foreground">
                   Technologies I&apos;ve been working with recently.
                 </div>
                 <div className="sm:w-[23rem] flex gap-3 flex-wrap">

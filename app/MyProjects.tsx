@@ -8,7 +8,7 @@ import {GitHubLogoIcon} from "@radix-ui/react-icons";
 const MyProjects = () => {
   // @ts-ignore
   return (
-      <div>
+      <div id="projects">
         <div
             className="p-5 border-t bg-background sm:p-10 w-[100vw] relative left-[50%] right-[50%] ml-[-50vw] mr-[-50vw]">
           <Container>
@@ -17,7 +17,7 @@ const MyProjects = () => {
                 <div className="font-semibold sm:text-3xl text-2xl">
                   My Projects
                 </div>
-                <div className="text-lg">
+                <div className="text-lg text-muted-foreground">
                   Some things I&apos;ve built so far.
                 </div>
                 <div className="">
