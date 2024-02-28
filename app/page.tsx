@@ -3,6 +3,7 @@ import SeparatorBar from "@/app/components/SeparatorBar";
 import hero_section from "../personal_details/hero_section.json";
 import AboutMe from "@/app/components/AboutMe";
 import MySkills from "@/app/components/MySkills";
+import MyProjects from "@/app/components/MyProjects";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
           <SeparatorBar data={hero_section}/>
           <AboutMe />
           <MySkills skills={hero_section.skills} />
+          <MyProjects />
         </div>
       </main>
   );

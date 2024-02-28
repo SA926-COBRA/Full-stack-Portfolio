@@ -20,7 +20,7 @@ const Navbar = () => {
   return (
       <div className="">
         <Container>
-          <div className="flex my-3 sm:mx-10 xl:mx-0 mx-5 justify-between items-center">
+          <div className="overflow-x-hidden flex my-3 sm:mx-10 xl:mx-0 mx-5 justify-between items-center">
             <GitHubLogoIcon/>
             <div className="-ml-12 hidden md:flex gap-5">
               {links.map((link) => (

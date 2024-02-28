@@ -21,16 +21,14 @@ const HeroSection = ({data}: Props) => {
     let count = 0;
     return Object.entries(social_media).map(([link, value]) => {
       if (value) {
-        return <div key={value} className="sm:w-9 sm:h-9 h-7 w-7 bg-foreground rounded-full flex justify-center items-center">
-              DP
-            </div>;
+        return <div key={value} className="sm:w-9 sm:h-9 h-7 w-7 bg-foreground rounded-full flex justify-center items-center">DP</div>;
       }
       return null;
     });
   };
 
   return (
-        <div className="relative flex flex-col-reverse">
+        <div className="relative flex flex-col-reverse ">
           <div className="flex flex-col gap-3 sm:mt-0 mt-52 bg-background/35 pb-10 -mb-11 pt-3 sm:mb-0 sm:pt-0 sm:pb-0 sm:bg-transparent">
             <div className="font-bold text-lg sm:text-2xl ">{intro}</div>
             <div className="font-black text-3xl sm:text-6xl text-primary/80 dark:text-primary/50 md:w-[50%]">{job_title}</div>
