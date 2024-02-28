@@ -18,6 +18,7 @@
   "skills": {
     "PYTHON": true,
     "JAVASCRIPT": true,
+    "TYPESCRIPT": true,
     "NODEJS": true,
     "REACTJS": true,
     "NEXTJS": true,
@@ -27,8 +28,9 @@
     "CPLUSPLUS": false,
     "CSHARP": false,
     "EXPRESSJS": true,
-    "LARAVEL": true,
+    "LARAVEL": false,
     "DJANGO": true,
+    "DJANGOREST": true,
     "MYSQL": true,
     "MONGODB": true,
     "RUBY": false,
