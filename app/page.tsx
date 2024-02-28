@@ -4,6 +4,7 @@ import hero_section from "../personal_details/hero_section.json";
 import AboutMe from "@/app/AboutMe";
 import MySkills from "@/app/MySkills";
 import MyProjects from "@/app/MyProjects";
+import ContactSection from "@/app/ContactSection";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
           <AboutMe />
           <MySkills skills={hero_section.skills} />
           <MyProjects />
+          <ContactSection />
         </div>
       </main>
   );
