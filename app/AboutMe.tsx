@@ -1,6 +1,6 @@
 import React from 'react';
 import Container from "@/components/Container";
-import about_me from "../../personal_details/about_me.json";
+import about_me from "../personal_details/about_me.json";
 
 const AboutMe = () => {
   return (

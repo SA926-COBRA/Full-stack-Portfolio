@@ -1,9 +1,9 @@
-import HeroSection from "@/app/components/HeroSection";
-import SeparatorBar from "@/app/components/SeparatorBar";
+import HeroSection from "@/app/HeroSection";
+import SeparatorBar from "@/app/SeparatorBar";
 import hero_section from "../personal_details/hero_section.json";
-import AboutMe from "@/app/components/AboutMe";
-import MySkills from "@/app/components/MySkills";
-import MyProjects from "@/app/components/MyProjects";
+import AboutMe from "@/app/AboutMe";
+import MySkills from "@/app/MySkills";
+import MyProjects from "@/app/MyProjects";
 
 export default function Home() {
   return (

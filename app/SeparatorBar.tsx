@@ -1,7 +1,7 @@
 import React from 'react';
 import Container from "@/components/Container";
 import {Avatar, AvatarFallback} from "@/components/ui/avatar";
-import {renderSkills} from "@/app/components/MySkills";
+import {renderSkills} from "@/app/MySkills";
 
 const SeparatorBar = ({data}: { data: HeroSection }) => {
 
