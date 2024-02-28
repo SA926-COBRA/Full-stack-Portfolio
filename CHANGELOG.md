@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.4](https://github.com/dragon-devs/my_portfolio/compare/v0.1.3...v0.1.4) (2024-02-28)
+
+
+### Features
+
+* Adding new skills ([0711e86](https://github.com/dragon-devs/my_portfolio/commit/0711e868b16b66e3fb5444a06d7b37dbfcd472d7))
+* Make the projects component functional + updated overall ([70196da](https://github.com/dragon-devs/my_portfolio/commit/70196da1f7260ae7802d9ce7ae5c384ff6d78e68))
+* Update social media fully functional now. ([3b41d32](https://github.com/dragon-devs/my_portfolio/commit/3b41d323357a7f445bd9b3c4b382906ebbff116b))
+* Update the skills component ([b1bb5ad](https://github.com/dragon-devs/my_portfolio/commit/b1bb5ad623b09c87614de28ee27d8cb32c94bc7d))
+
 ### [0.1.3](https://github.com/dragon-devs/my_portfolio/compare/v0.1.2...v0.1.3) (2024-02-28)
 
 
