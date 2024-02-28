@@ -1,6 +1,6 @@
 import HeroSection from "@/app/HeroSection";
 import SeparatorBar from "@/app/SeparatorBar";
-import hero_section from "../personal_details/hero_section.json";
+import hero_section from "@/change_data/hero_section.json";
 import AboutMe from "@/app/AboutMe";
 import MySkills from "@/app/MySkills";
 import MyProjects from "@/app/MyProjects";

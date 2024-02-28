@@ -35,7 +35,7 @@ const ContactForm = () => {
 
       router.refresh()
       if (response.ok) {
-        toast.success("Thanks for submitting your message.")
+        toast.success("Thanks for submitting your message ;)")
         setName('');
         setEmail('');
         setMessage('');
@@ -43,12 +43,12 @@ const ContactForm = () => {
         setSubmitted(false);
         setSubmitted(false);
       } else {
-        toast.error('Unable to submit the your message.');
+        toast.error('Unable to submit your message :(');
         setSubmitted(false);
 
       }
     } catch (error) {
-      toast.error("Something went wrong.");
+      toast.error("Oops! Something went wrong.");
       setSubmitted(false);
     }
   };

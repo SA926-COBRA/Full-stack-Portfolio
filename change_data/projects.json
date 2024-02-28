@@ -1,0 +1,35 @@
+{
+  "project1": {
+    "title": "Project Manager",
+    "description": "Project Manager is a comprehensive, open-source solution crafted from scratch for software houses and organizations in need of efficient workflow management. It is meticulously designed to streamline operations, providing comprehensive tools to seamlessly oversee projects, tasks, and resources.",
+    "github_repo": "https://github.com/dragon-devs/project-manager",
+    "project_url": "https://project-manager-mu-teal.vercel.app/projects/grid",
+    "pictures": {
+      "pic1": "/projects/project1/pic1.png",
+      "pic2": "/projects/project1/pic2.png",
+      "pic3": "/projects/project1/pic3.png"
+    }
+  },
+  "project2": {
+    "title": "Custom Tree",
+    "description": "This project directory is organized using a hierarchical structure to efficiently manage and navigate through various files and directories. Below is a breakdown of the directory tree along with explanations for each directory and file.",
+    "github_repo": "https://github.com/dragon-devs/custom-tree",
+    "project_url": "",
+    "pictures": {
+      "pic1": "/projects/project2/pic1.png",
+      "pic2": "/projects/project2/pic2.png"
+    }
+  },
+  "project3": {
+    "title": "Chat App",
+    "description": "ChatApp is a from-scratch, open-source Django full-stack application. It facilitates account creation, profile updates, random chat room participation, online user visibility, and private messaging capabilities etc.",
+    "github_repo": "https://github.com/dragon-devs/chatapp",
+    "project_url": "",
+    "pictures": {
+      "pic1": "/projects/project3/pic1.png",
+      "pic2": "/projects/project3/pic2.png",
+      "pic3": "/projects/project3/pic3.png",
+      "pic4": "/projects/project3/pic4.png"
+    }
+  }
+}

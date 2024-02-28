@@ -3,10 +3,13 @@ import Container from "@/components/Container";
 import {Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle} from "@/components/ui/card";
 import {Button} from "@/components/ui/button";
 import {Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious} from "@/components/ui/carousel";
-import {GitHubLogoIcon} from "@radix-ui/react-icons";
+import {ExternalLinkIcon, GitHubLogoIcon} from "@radix-ui/react-icons";
+
+import projectsData from '../change_data/projects.json';
+import Image from "next/image";
+import Link from "next/link";
 
 const MyProjects = () => {
-  // @ts-ignore
   return (
       <div id="projects">
         <div
@@ -17,32 +20,49 @@ const MyProjects = () => {
                 <div className="font-semibold sm:text-3xl text-2xl">
                   My Projects
                 </div>
-                <div className="text-lg text-muted-foreground">
+                <div className="text-muted-foreground">
                   Some things I&apos;ve built so far.
                 </div>
                 <div className="">
                   <Carousel className="">
                     <CarouselContent className="-ml-1">
-                      {Array.from({length: 5}).map((_, index) => (
-                          <CarouselItem key={index} className="pl-1 md:basis-1/2 lg:basis-1/4">
+                      {Object.values(projectsData).map((project, index) => (
+                          <CarouselItem key={index} className="pl-1 md:basis-1/2 lg:basis-1/3">
                             <div className="p-1">
                               <Card className=" ">
                                 <CardContent className="p-3 pb-0">
-                                  <div className="w-auto bg-muted rounded-sm h-40 ">
+                                  <div className="border rounded-sm">
+                                    <Image src={project.pictures.pic1} alt="Project"
+                                           className="bg-muted rounded-sm h-48 w-full object-cover " width={800}
+                                           height={450}
+                                    />
                                   </div>
                                 </CardContent>
                                 <CardHeader className="p-3">
-                                  <CardTitle>Project Title</CardTitle>
-                                  <CardDescription>Description about your work</CardDescription>
+                                  <CardTitle>{project.title}</CardTitle>
+                                  <CardDescription
+                                      className="truncate">{project.description}</CardDescription>
                                 </CardHeader>
-                                <CardFooter className="p-3">
-                                  <Button className="w-full gap-2 "><GitHubLogoIcon/> Source code</Button>
+                                <CardFooter className="p-3 gap-3">
+                                  {project.github_repo && (
+                                      <Link className="w-full" href={project.github_repo} target="_blank" rel="noopener noreferrer">
+                                        <Button className="w-full gap-2">
+                                          <GitHubLogoIcon/> Source code
+                                        </Button>
+                                      </Link>
+                                  )}
+                                  {project.project_url &&(
+                                      <Link className="w-full" href={project.project_url} target="_blank" rel="noopener noreferrer">
+                                        <Button className="w-full gap-2">
+                                          <ExternalLinkIcon /> Visit
+                                        </Button>
+                                      </Link>
+                                  )}
                                 </CardFooter>
                               </Card>
                             </div>
                           </CarouselItem>
-                      ))}
-                    </CarouselContent>
+                      ))}                    </CarouselContent>
                     <div className="hidden sm:block">
                       <CarouselPrevious/>
                       <CarouselNext/>
