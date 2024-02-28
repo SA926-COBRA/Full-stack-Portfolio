@@ -3,7 +3,8 @@
   "job_title": "I'm a Full-Stack Web Developer",
   "title_description": "I build things for web.",
   "social_media": {
-    "github":"https://github.com/dragon-devs",
+    "github": "https://github.com/dragon-devs",
+    "gmail": "dragonfourtyseven@gmail.com",
     "facebook": "",
     "linkedin": "",
     "instagram": "",
@@ -23,7 +24,7 @@
     "REACTJS": true,
     "NEXTJS": true,
     "HTML": true,
-    "CSS" : true,
+    "CSS": true,
     "TAILWINDCSS": true,
     "CPLUSPLUS": false,
     "CSHARP": false,

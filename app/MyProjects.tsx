@@ -29,7 +29,7 @@ const MyProjects = () => {
                       {Object.values(projectsData).map((project, index) => (
                           <CarouselItem key={index} className="pl-1 md:basis-1/2 lg:basis-1/3">
                             <div className="p-1">
-                              <Card className=" ">
+                              <Card className="">
                                 <CardContent className="p-3 pb-0">
                                   <div className="border rounded-sm">
                                     <Image src={project.pictures.pic1} alt="Project"

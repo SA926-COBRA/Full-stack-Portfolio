@@ -2,7 +2,11 @@ import React from 'react';
 import {Avatar, AvatarFallback, AvatarImage} from "@/components/ui/avatar";
 import {renderSocialMedia} from "@/app/HeroSection";
 import Link from "next/link";
+import ContactIcons from "@/app/components/ContactIcons";
 
+interface SocialMedia {
+  [key: string]: string;
+}
 const Footer = ({data}: { data: HeroSection }) => {
   return (
       <div className="flex justify-between items-center flex-col gap-5 sm:flex-row ">
@@ -16,7 +20,7 @@ const Footer = ({data}: { data: HeroSection }) => {
           </div>
         </div>
         <div className="flex sm:gap-5 gap-3 capitalize">
-          {renderSocialMedia(data.social_media)}
+          <ContactIcons socialMedia={data.social_media as SocialMedia} />
         </div>
       </div>
   );
