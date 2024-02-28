@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.3](https://github.com/dragon-devs/my_portfolio/compare/v0.1.2...v0.1.3) (2024-02-28)
+
+
+### Features
+
+* build footer + update nav links ([cefab25](https://github.com/dragon-devs/my_portfolio/commit/cefab2596ef3ecf4885aa96f889aabb7fbbe6f5d))
+* **contact:** contact section is functional now. ([caa9cd3](https://github.com/dragon-devs/my_portfolio/commit/caa9cd3f267b07cfab14e822f8412da57ce4abb8))
+
+
+### Bug Fixes
+
+* fixed mobile view ([75d0f2c](https://github.com/dragon-devs/my_portfolio/commit/75d0f2cd5ad5728928d6d415d4af4bde1315793a))
+
 ### [0.1.2](https://github.com/dragon-devs/my_portfolio/compare/v0.1.1...v0.1.2) (2024-02-28)
 
 
