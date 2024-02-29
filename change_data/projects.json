@@ -14,12 +14,17 @@
     "pictures": [
       "/projects/project1/pic1.png",
       "/projects/project1/pic2.png",
-      "/projects/project1/pic3.png"
+      "/projects/project1/pic3.png",
+      "/projects/project1/pic4.png",
+      "/projects/project1/pic5.png",
+      "/projects/project1/pic6.png",
+      "/projects/project1/pic7.png",
+      "/projects/project1/pic8.png"
     ]
   },
   "project2": {
     "title": "Issue Tracker",
-    "description": "Issue Tracker is a Django-based web app integrated with Sentry for issue tracking. It facilitates issue management, user authentication, and features responsive design for both mobile and desktop.",
+    "description": "Issue Tracker is a TypeScript-based web application built with Next.js and Prisma. It features seamless issue tracking, user authentication, and responsive design for versatile usability.",
     "github_repo": "https://github.com/dragon-devs/issue-tracker",
     "project_url": "",
     "tags": [
@@ -33,8 +38,7 @@
       "/projects/project2/pic1.png",
       "/projects/project2/pic2.png",
       "/projects/project2/pic3.png",
-      "/projects/project2/pic4.png",
-      "/projects/project2/pic5.png"
+      "/projects/project2/pic4.png"
     ]
   },
   "project3": {

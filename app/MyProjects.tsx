@@ -8,6 +8,15 @@ import {ExternalLinkIcon, GitHubLogoIcon} from "@radix-ui/react-icons";
 import projectsData from '../change_data/projects.json';
 import Image from "next/image";
 import Link from "next/link";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger
+} from "@/components/ui/dialog";
+import ProjectDetails from "@/app/components/ProjectDetails";
 import {Badge} from "@/components/ui/badge";
 
 const MyProjects = () => {
@@ -32,21 +41,37 @@ const MyProjects = () => {
                             <div className="p-1">
                               <Card className="">
                                 <CardContent className="p-3 pb-0 ">
-
-                                  <div className="relative border overflow-hidden rounded-sm">
-                                    <div className="absolute flex flex-wrap-reverse left-2 bottom-2 gap-1 ">
-                                      {project.tags?.map((tag, index) => (
-                                          <Badge className="text-[10px] p-0 px-0.5 " key={index}>
-                                            {tag.toLowerCase()}
-                                          </Badge>
-                                      ))}
-                                    </div>
-                                    <Image src={project.pictures![0]} alt="Project"
-                                           className="bg-muted rounded-sm h-48 w-full object-cover " width={800}
-                                           height={450}
-                                    />
-
-                                  </div>
+                                  <Dialog>
+                                    <DialogTrigger className="w-full">
+                                      <div className="border overflow-hidden rounded-sm">
+                                        <Image
+                                            src={project.pictures![0]}
+                                            alt="Project"
+                                            className="bg-muted rounded-sm h-48 w-full object-cover"
+                                            width={800}
+                                            height={450}
+                                        />
+                                      </div>
+                                    </DialogTrigger>
+                                    <DialogContent>
+                                      <DialogHeader>
+                                        <DialogTitle>{project.title}</DialogTitle>
+                                        <DialogDescription>{project.description}</DialogDescription>
+                                      </DialogHeader>
+                                      <div className="">
+                                        <div className="overflow-hidden rounded-sm ">
+                                          <div className=" flex flex-wrap gap-1 pb-3 float-right">
+                                            {project.tags?.map((tag, index) => (
+                                                <Badge className="text-[10px] p-0 px-1 " key={index}>
+                                                  {tag.toLowerCase()}
+                                                </Badge>
+                                            ))}
+                                          </div>
+                                        </div>
+                                        <ProjectDetails project={project}/>
+                                      </div>
+                                    </DialogContent>
+                                  </Dialog>
                                 </CardContent>
                                 <CardHeader className="p-3">
                                   <CardTitle>{project.title}</CardTitle>
