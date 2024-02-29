@@ -20,14 +20,13 @@ const ScrollLink = ({ link, className="link" }: Props) => {
     }
   };
 
-  // Ensure className is one of the allowed button variants or default to "default"
   const buttonVariant = className && ["link", "default", "destructive"].includes(className)
     ? className
     : "default";
 
   return (
     <div>
-      <Button className={`text-foreground`} variant={buttonVariant} onClick={() => scrollToSection()}>
+      <Button className="text-foreground transition-all" variant={buttonVariant} onClick={() => scrollToSection()}>
         {link.title}
       </Button>
     </div>

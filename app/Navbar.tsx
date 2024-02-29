@@ -27,12 +27,12 @@ const Navbar = () => {
   return (
       <div className="">
         <Container>
-          <div className="overflow-x-hidden flex my-3 sm:mx-10 xl:mx-0 mx-5 justify-between items-center">
-            <Avatar className="border">
-              <AvatarImage src="https://avatars.githubusercontent.com/u/56775744?s=96&v=4"/>
+          <div className="flex my-3 sm: xl:mx-0 mx-5 justify-between items-center">
+            <Avatar className="hover:shadow-primary transition-all duration-500 shadow-xl shadow-primary/50 ">
+              <AvatarImage src="favicon.ico"/>
               <AvatarFallback>DP</AvatarFallback>
             </Avatar>
-            <div className="-ml-12 hidden md:flex gap-5">
+            <div className="-ml-12 hidden transition-all md:flex gap-5">
               {links.map((link) => (
                   <div key={link.id}>
                     <ScrollLink link={link}/>
@@ -40,7 +40,9 @@ const Navbar = () => {
               ))}
 
             </div>
-            <Button onClick={() => scrollToSection('hire_me')} className="lg:-ml-[12rem] flex gap-2 items-center justify-center" variant="default">
+            <Button onClick={() => scrollToSection('hire_me')}
+                    className="lg:-ml-[12rem] flex gap-2 items-center justify-center shadow-xl shadow-primary/50 hover:shadow-primary transition-all duration-500 hover:translate-y-0.5"
+                    variant="default">
               <PaperPlaneIcon/>Hire me
             </Button>
             <ModeToggle/>

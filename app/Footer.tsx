@@ -11,8 +11,8 @@ const Footer = ({data}: { data: HeroSection }) => {
   return (
       <div className="flex justify-between items-center flex-col gap-5 sm:flex-row ">
         <div className="flex sm:flex-row flex-col items-center gap-5 sm:gap-10">
-          <Avatar className="border">
-            <AvatarImage src="https://avatars.githubusercontent.com/u/56775744?s=96&v=4"/>
+          <Avatar className="shadow-xl shadow-primary ">
+            <AvatarImage src="favicon.ico"/>
             <AvatarFallback>DP</AvatarFallback>
           </Avatar>
           <div className="text-muted-foreground sm:text-sm text-xs flex justify-center sm:justify-start">

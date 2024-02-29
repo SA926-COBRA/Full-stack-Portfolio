@@ -35,8 +35,8 @@ const HeroSection = ({data}: Props) => {
           </div>
         </div>
         <div>
-          <Image className="absolute sm:right-5 sm:-top-20 -top-12 -z-10 "
-                 src="/portfolio_hero.png" alt="hero_picture" width={450} height={800}/>
+          <Image className="absolute sm:right-0 sm:-top-20 transform scale-x-[-1] -top-12 -z-10 "
+                 src="/portfolio_hero_blue.png" alt="hero_picture" width={450} height={800}/>
         </div>
       </div>
   );
