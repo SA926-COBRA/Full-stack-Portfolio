@@ -8,6 +8,7 @@ import {ExternalLinkIcon, GitHubLogoIcon} from "@radix-ui/react-icons";
 import projectsData from '../change_data/projects.json';
 import Image from "next/image";
 import Link from "next/link";
+import {Badge} from "@/components/ui/badge";
 
 const MyProjects = () => {
   return (
@@ -26,16 +27,23 @@ const MyProjects = () => {
                 <div className="">
                   <Carousel className="">
                     <CarouselContent className="-ml-1">
-                      {Object.values(projectsData).map((project, index) => (
+                      {Object.values(projectsData).map((project: Project, index) => (
                           <CarouselItem key={index} className="pl-1 md:basis-1/2 lg:basis-1/3">
                             <div className="p-1">
                               <Card className="">
                                 <CardContent className="p-3 pb-0 ">
-                                  <div className="border rounded-sm">
-                                    <Image src={project.pictures.pic1} alt="Project"
+                                  <div className="relative border overflow-hidden rounded-sm">
+                                    <Image src={project.pictures!.pic1} alt="Project"
                                            className="bg-muted rounded-sm h-48 w-full object-cover " width={800}
                                            height={450}
                                     />
+                                    <div className="absolute flex flex-wrap-reverse left-2 bottom-2 gap-1 ">
+                                      {project.tags?.map((tag, index) => (
+                                          <Badge className="text-[10px] p-0 px-0.5 " key={index}>
+                                            {tag.toLowerCase()}
+                                          </Badge>
+                                      ))}
+                                    </div>
                                   </div>
                                 </CardContent>
                                 <CardHeader className="p-3">
@@ -45,16 +53,18 @@ const MyProjects = () => {
                                 </CardHeader>
                                 <CardFooter className="p-3 gap-3">
                                   {project.github_repo && (
-                                      <Link className="w-full" href={project.github_repo} target="_blank" rel="noopener noreferrer">
+                                      <Link className="w-full" href={project.github_repo} target="_blank"
+                                            rel="noopener noreferrer">
                                         <Button className="w-full gap-2">
                                           <GitHubLogoIcon/> Source code
                                         </Button>
                                       </Link>
                                   )}
-                                  {project.project_url &&(
-                                      <Link className="w-full" href={project.project_url} target="_blank" rel="noopener noreferrer">
+                                  {project.project_url && (
+                                      <Link className="w-full" href={project.project_url} target="_blank"
+                                            rel="noopener noreferrer">
                                         <Button className="w-full gap-2">
-                                          <ExternalLinkIcon /> Visit
+                                          <ExternalLinkIcon/> Visit
                                         </Button>
                                       </Link>
                                   )}
@@ -62,7 +72,8 @@ const MyProjects = () => {
                               </Card>
                             </div>
                           </CarouselItem>
-                      ))}                    </CarouselContent>
+                      ))}
+                    </CarouselContent>
                     <div className="hidden sm:block">
                       <CarouselPrevious/>
                       <CarouselNext/>

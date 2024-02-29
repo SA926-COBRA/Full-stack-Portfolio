@@ -7,3 +7,12 @@ interface HeroSection {
   skills: object
   social_media: object
 }
+
+interface Project {
+  title: string;
+  description: string;
+  github_repo: string;
+  project_url: string;
+  tags?: string[];
+  pictures?: { [key: string]: string };
+};

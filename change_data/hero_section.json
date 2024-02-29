@@ -14,7 +14,7 @@
     "whatsapp": "+923075577010",
     "other": ""
   },
-  "experience_years": "3+",
+  "experience_years": "4+",
   "projects_completed_count": "12+",
   "skills": {
     "PYTHON": true,
@@ -35,7 +35,7 @@
     "EXPRESSJS": true,
     "LARAVEL": false,
     "MONGODB": true,
-    "RUBY": true,
+    "RUBY": false,
     "JAVA": false,
     "KOTLIN": false,
     "DOCKER": true,

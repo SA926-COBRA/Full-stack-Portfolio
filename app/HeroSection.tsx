@@ -25,7 +25,7 @@ const HeroSection = ({data}: Props) => {
   return (
       <div className="relative flex flex-col-reverse">
         <div
-            className="flex flex-col gap-3  bg-background sm:p-0 p-5 sm:mt-0 mt-52 pt-3 sm:mb-0 sm:pt-0 sm:pb-0 sm:bg-transparent">
+            className="flex flex-col gap-3 rounded-md bg-background sm:p-0 p-5 sm:mt-0 mt-52 pt-3 sm:mb-0 sm:pt-0 sm:pb-0 sm:bg-transparent">
           <div className="font-bold text-lg sm:text-2xl ">{intro}</div>
           <div
               className="font-black text-4xl sm:text-6xl text-primary/80 dark:text-primary/50 md:w-[50%]">{job_title}</div>
