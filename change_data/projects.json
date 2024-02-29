@@ -18,18 +18,23 @@
     }
   },
   "project2": {
-    "title": "Custom Tree",
-    "description": "This project directory is organized using a hierarchical structure to efficiently manage and navigate through various files and directories. Below is a breakdown of the directory tree along with explanations for each directory and file.",
-    "github_repo": "https://github.com/dragon-devs/custom-tree",
+    "title": "Issue Tracker",
+    "description": "Issue Tracker is a Django-based web app integrated with Sentry for issue tracking. It facilitates issue management, user authentication, and features responsive design for both mobile and desktop.",
+    "github_repo": "https://github.com/dragon-devs/issue-tracker",
     "project_url": "",
     "tags": [
-      "python",
-      "os",
-      "bash"
+      "typescript",
+      "nextjs",
+      "prisma",
+      "senitry",
+      "postgresql"
     ],
     "pictures": {
       "pic1": "/projects/project2/pic1.png",
-      "pic2": "/projects/project2/pic2.png"
+      "pic2": "/projects/project2/pic2.png",
+      "pic3": "/projects/project2/pic3.png",
+      "pic4": "/projects/project2/pic4.png",
+      "pic5": "/projects/project2/pic5.png"
     }
   },
   "project3": {
@@ -40,6 +45,7 @@
     "tags": [
       "python",
       "django",
+      "tailwindcss",
       "django-orm",
       "sqlite"
     ],
@@ -48,6 +54,22 @@
       "pic2": "/projects/project3/pic2.png",
       "pic3": "/projects/project3/pic3.png",
       "pic4": "/projects/project3/pic4.png"
+    }
+  },
+  "project4": {
+    "title": "Custom Tree",
+    "description": "This project directory is organized using a hierarchical structure to efficiently manage and navigate through various files and directories. Below is a breakdown of the directory tree along with explanations for each directory and file.",
+    "github_repo": "https://github.com/dragon-devs/custom-tree",
+    "project_url": "",
+    "tags": [
+      "python",
+      "os",
+      "bash"
+    ],
+    "pictures": {
+      "pic1": "/projects/project4/pic1.png",
+      "pic2": "/projects/project4/pic2.png",
+      "pic3": "/projects/project4/pic3.png"
     }
   }
 }
