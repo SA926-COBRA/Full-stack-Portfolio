@@ -32,11 +32,8 @@ const MyProjects = () => {
                             <div className="p-1">
                               <Card className="">
                                 <CardContent className="p-3 pb-0 ">
+
                                   <div className="relative border overflow-hidden rounded-sm">
-                                    <Image src={project.pictures!.pic1} alt="Project"
-                                           className="bg-muted rounded-sm h-48 w-full object-cover " width={800}
-                                           height={450}
-                                    />
                                     <div className="absolute flex flex-wrap-reverse left-2 bottom-2 gap-1 ">
                                       {project.tags?.map((tag, index) => (
                                           <Badge className="text-[10px] p-0 px-0.5 " key={index}>
@@ -44,6 +41,11 @@ const MyProjects = () => {
                                           </Badge>
                                       ))}
                                     </div>
+                                    <Image src={project.pictures![0]} alt="Project"
+                                           className="bg-muted rounded-sm h-48 w-full object-cover " width={800}
+                                           height={450}
+                                    />
+
                                   </div>
                                 </CardContent>
                                 <CardHeader className="p-3">

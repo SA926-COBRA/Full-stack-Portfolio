@@ -14,5 +14,5 @@ interface Project {
   github_repo: string;
   project_url: string;
   tags?: string[];
-  pictures?: { [key: string]: string };
+  pictures?: string[];
 };
