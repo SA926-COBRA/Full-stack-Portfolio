@@ -40,7 +40,7 @@ const renderContact = (socialMedia: SocialMedia) => {
   const whatsappNumber = socialMedia['whatsapp'];
   if (whatsappNumber) {
     renderedContacts.push(
-      <div key="whatsapp" className="w-8 h-8 rounded-full text-foreground/80 bg-background shadow-lg hover:shadow-primary transition-all flex items-center justify-center">
+      <div key="whatsapp" className="w-8 h-8 rounded-full hover:-translate-y-1 text-foreground/80 bg-background shadow-lg hover:shadow-primary transition-all flex items-center justify-center">
         <Link href={`https://wa.me/${whatsappNumber}`} target="_blank" rel="noopener noreferrer">
           <IoLogoWhatsapp size={25}  />
         </Link>
@@ -51,7 +51,7 @@ const renderContact = (socialMedia: SocialMedia) => {
   const gmailAddress = socialMedia['gmail'];
   if (gmailAddress) {
     renderedContacts.push(
-      <div key="gmail" className="w-8 h-8 rounded-full text-foreground/80 bg-background shadow-lg hover:shadow-primary transition-all flex items-center justify-center">
+      <div key="gmail" className="w-8 h-8 rounded-full hover:-translate-y-1 text-foreground/80 bg-background shadow-lg hover:shadow-primary transition-all  flex items-center justify-center">
         <Link href={`mailto:${gmailAddress}`} target="_blank" rel="noopener noreferrer">
           <SiGmail size={21} />
         </Link>
@@ -65,7 +65,7 @@ const renderContact = (socialMedia: SocialMedia) => {
       const matchingContact = allContacts.find(item => item.value === contact);
       if (matchingContact) {
         renderedContacts.push(
-          <div key={contact} className="w-8 h-8 rounded-full text-foreground/80 bg-background shadow-lg hover:shadow-primary transition-all flex items-center justify-center">
+          <div key={contact} className="w-8 h-8 rounded-full hover:-translate-y-1 text-foreground/80 bg-background shadow-lg hover:shadow-primary transition-all  flex items-center justify-center">
             <Link href={value} target="_blank" rel="noopener noreferrer">
               {matchingContact.icon}
             </Link>

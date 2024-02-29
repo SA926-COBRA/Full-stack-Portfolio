@@ -28,7 +28,7 @@ export async function POST(request: NextRequest) {
   try {
     await transporter.sendMail({
       from: process.env.GMAIL_USERNAME,
-      to: 'dragonfourtyseven@gmail.com',
+      to: process.env.GMAIL_FOR_RECEIVING_MESSAGE,
       subject: `${name} is interested in : ${interested}`,
       text: `From: ${email}\n\nMessage: ${message}`
     });

@@ -30,7 +30,7 @@ const MyProjects = () => {
                           <CarouselItem key={index} className="pl-1 md:basis-1/2 lg:basis-1/3">
                             <div className="p-1">
                               <Card className="">
-                                <CardContent className="p-3 pb-0">
+                                <CardContent className="p-3 pb-0 ">
                                   <div className="border rounded-sm">
                                     <Image src={project.pictures.pic1} alt="Project"
                                            className="bg-muted rounded-sm h-48 w-full object-cover " width={800}

@@ -11,7 +11,7 @@ const AboutMe = () => {
               <div className="font-semibold sm:text-3xl text-2xl">
                 About Me
               </div>
-              <div className="text-muted-foreground sm:w-[50%] sm:leading-8">
+              <div className="text-muted-foreground sm:w-[47%] sm:leading-8">
                 {about_me.write_about_yours}
               </div>
             </div>
