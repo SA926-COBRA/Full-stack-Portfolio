@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.5](https://github.com/dragon-devs/my_portfolio/compare/v0.1.4...v0.1.5) (2024-02-29)
+
+
+### Features
+
+* adding new projects ([283ed98](https://github.com/dragon-devs/my_portfolio/commit/283ed98727fe208d907ce9dd28b0e35fa8d5b56f))
+* adding new projects + updating ([58fa9e0](https://github.com/dragon-devs/my_portfolio/commit/58fa9e0b0a76675d3c0decb21590f2126eebe682))
+* Adding tags to projects ([cf08ed1](https://github.com/dragon-devs/my_portfolio/commit/cf08ed15d52a8b7893a8dde7dd747c521890caca))
+* Build projects details ([78ec4be](https://github.com/dragon-devs/my_portfolio/commit/78ec4be3ee82b65365247ddde6c2aea0c39af2c3))
+* Finishing touch. it's Reusable. ([45e6b26](https://github.com/dragon-devs/my_portfolio/commit/45e6b26f7ffbf07901ce455717f8694d5306213b))
+
 ### [0.1.4](https://github.com/dragon-devs/my_portfolio/compare/v0.1.3...v0.1.4) (2024-02-28)
 
 
