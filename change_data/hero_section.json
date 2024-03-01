@@ -3,6 +3,21 @@
   "job_title": "I'm a Full-Stack Web Developer",
   "title_description": "I build things for web.",
   "about_me": "I am a 25-year-old self-taught developer and designer, deeply passionate about continuous learning, problem-solving, and coding. Eager to maximize my potential, I aspire to make significant contributions to the development of world-class applications within an enterprise environment.",
+  "experience_years": "4+",
+  "projects_completed_count": "15+",
+  "i_will_do": [
+    "Ecommerce Website",
+    "Saas Website",
+    "Landing Page",
+    "Portfolio",
+    "Blog Website",
+    "Backend",
+    "Api",
+    "Frontend",
+    "Dashboard",
+    "web app",
+    "mobile app"
+  ],
   "social_media": {
     "github": "https://github.com/dragon-devs",
     "gmail": "dragonfourtyseven@gmail.com",
@@ -15,8 +30,6 @@
     "whatsapp": "+923075577010",
     "other": ""
   },
-  "experience_years": "4+",
-  "projects_completed_count": "15+",
   "skills": {
     "PYTHON": true,
     "JAVASCRIPT": true,

@@ -15,9 +15,6 @@ const HeroSection = ({data}: Props) => {
     my_name,
     job_title,
     title_description,
-    experience_years,
-    projects_completed_count,
-    skills,
     social_media
   } = data;
 
@@ -33,8 +30,9 @@ const HeroSection = ({data}: Props) => {
           </h3>
         </div>
         <div>
-          <Image className="absolute sm:right-0 sm:-top-20 transform scale-x-[-1] -top-12 -z-10 "
-                 src="/portfolio_hero_blue.png" alt="hero_picture" width={450} height={800}/>
+          <Image priority={true} alt="hero_picture" width={500} height={800}
+                 className="w-auto h-auto absolute sm:right-0 sm:-top-20 transform scale-x-[-1] -top-12 -z-10 "
+                 src="/portfolio_hero.png" />
         </div>
       </div>
   );
