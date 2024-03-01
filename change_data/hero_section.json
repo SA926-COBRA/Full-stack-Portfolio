@@ -1,7 +1,8 @@
 {
-  "intro": "Hello\uD83D\uDC4B, I'm DRH",
+  "my_name": "DRH",
   "job_title": "I'm a Full-Stack Web Developer",
   "title_description": "I build things for web.",
+  "about_me": "I am a 25-year-old self-taught developer and designer, deeply passionate about continuous learning, problem-solving, and coding. Eager to maximize my potential, I aspire to make significant contributions to the development of world-class applications within an enterprise environment.",
   "social_media": {
     "github": "https://github.com/dragon-devs",
     "gmail": "dragonfourtyseven@gmail.com",

@@ -1,6 +1,6 @@
 import React from 'react';
 import Container from "@/components/Container";
-import about_me from "@/change_data/about_me.json";
+import me from "@/change_data/hero_section.json";
 
 const AboutMe = () => {
   return (
@@ -12,7 +12,7 @@ const AboutMe = () => {
                 About Me
               </div>
               <div className="text-muted-foreground sm:w-[47%] sm:leading-8">
-                {about_me.write_about_yours}
+                {me.about_me}
               </div>
             </div>
           </Container>

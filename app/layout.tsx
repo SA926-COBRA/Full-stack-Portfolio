@@ -9,10 +9,10 @@ import {Toaster} from "@/components/ui/sonner";
 const inter = Inter({subsets: ["latin"]});
 
 export const metadata: Metadata = {
-  title: "My Portfolio 🌟",
-  description: "🌟 An open-source portfolio template designed " +
+  title: "My Portfolio 🌟 Home Page 🚀",
+  description: "An open-source portfolio template designed " +
       "to showcase your projects beautifully. Customize, deploy, " +
-      "and impress with ease! 🚀",
+      "and impress with ease!🌟🚀",
 };
 
 

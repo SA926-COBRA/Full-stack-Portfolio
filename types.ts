@@ -1,5 +1,5 @@
 interface HeroSection {
-  intro: string;
+  my_name: string;
   job_title: string;
   title_description: string;
   experience_years: string

@@ -1,7 +1,14 @@
 'use client';
 import * as React from "react"
 import {CardContent} from "@/components/ui/card"
-import {Carousel, type CarouselApi, CarouselContent, CarouselItem,} from "@/components/ui/carousel"
+import {
+  Carousel,
+  type CarouselApi,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel"
 import Image from "next/image";
 
 
@@ -33,7 +40,7 @@ const ProjectDetails = ({project}: { project: Project }) => {
             {project.pictures!.map((pic, index) => (
                 <CarouselItem key={index}>
                   <CardContent className="p-0">
-                    <div className="relative flex w-full aspect-video sm:max-h-[75vh] justify-center ">
+                    <div className="relative flex w-full aspect-video sm:max-h-[65vh] justify-center">
                       {loading && <div
                           className="absolute top-0 left-0 w-full h-full flex items-center justify-center ">
                         <svg className="animate-spin h-20 w-20 text-foreground" xmlns="http://www.w3.org/2000/svg"
@@ -57,9 +64,11 @@ const ProjectDetails = ({project}: { project: Project }) => {
                 </CarouselItem>
             ))}
           </CarouselContent>
+          <CarouselNext className="sm:w-10 sm:h-10 sm:right-5 right-2"/>
+          <CarouselPrevious className="sm:w-10 sm:h-10 sm:left-5 left-2"/>
+
         </Carousel>
         <div className="py-2 text-center text-sm font-bold text-muted-foreground">
-
           Slide {current} of {count}
         </div>
       </div>

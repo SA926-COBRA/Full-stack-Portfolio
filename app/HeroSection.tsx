@@ -12,7 +12,7 @@ type SocialMedia = {
 
 const HeroSection = ({data}: Props) => {
   const {
-    intro,
+    my_name,
     job_title,
     title_description,
     experience_years,
@@ -24,15 +24,13 @@ const HeroSection = ({data}: Props) => {
 
   return (
       <div className="relative flex flex-col-reverse">
-        <div
-            className="flex flex-col gap-3 rounded-md bg-background sm:p-0 p-5 sm:mt-0 mt-52 pt-3 sm:mb-0 sm:pt-0 sm:pb-0 sm:bg-transparent">
-          <div className="font-bold text-lg sm:text-2xl ">{intro}</div>
-          <div
-              className="font-black text-4xl sm:text-6xl text-primary/80 dark:text-primary/50 md:w-[50%]">{job_title}</div>
-          <div className="font-medium text-2xl sm:text-4xl">{title_description}</div>
-          <div className="flex sm:gap-3 gap-2 capitalize">
+        <div className="flex flex-col gap-3 rounded-md bg-background sm:p-0 p-5 sm:mt-0 mt-52 pt-3 sm:mb-0 sm:pt-0 sm:pb-0 sm:bg-transparent">
+          <h1 className="font-bold text-lg sm:text-2xl ">Hello👋, I&apos;m {my_name}</h1>
+          <h1 className="font-black text-4xl sm:text-6xl text-primary/80 dark:text-primary/80 sm:dark:text-primary/60 md:w-[50%]">{job_title}</h1>
+          <h2 className="font-medium text-2xl sm:text-4xl">{title_description}</h2>
+          <h3 className="flex sm:gap-3 gap-2 capitalize">
             <ContactIcons socialMedia={social_media as SocialMedia}/>
-          </div>
+          </h3>
         </div>
         <div>
           <Image className="absolute sm:right-0 sm:-top-20 transform scale-x-[-1] -top-12 -z-10 "
@@ -42,14 +40,4 @@ const HeroSection = ({data}: Props) => {
   );
 };
 
-export const renderSocialMedia = (social_media: object) => {
-  let count = 0;
-  return Object.entries(social_media).map(([link, value]) => {
-    if (value) {
-      return <div key={value}
-                  className="sm:w-9 sm:h-9 h-7 w-7 bg-foreground rounded-full flex justify-center items-center">DP</div>;
-    }
-    return null;
-  });
-};
 export default HeroSection;
