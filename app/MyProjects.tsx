@@ -27,12 +27,12 @@ const MyProjects = () => {
           <Container>
             <div className="">
               <div className="flex flex-col gap-3">
-                <div className="font-semibold sm:text-3xl text-2xl">
+                <h1 className="font-semibold sm:text-3xl text-2xl">
                   My Projects
-                </div>
-                <div className="text-muted-foreground">
+                </h1>
+                <h1 className="text-muted-foreground">
                   Some things I&apos;ve built so far.
-                </div>
+                </h1>
                 <div className="">
                   <Carousel className="">
                     <CarouselContent className="-ml-1">

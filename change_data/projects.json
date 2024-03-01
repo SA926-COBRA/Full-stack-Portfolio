@@ -63,9 +63,9 @@
   },
   "project4": {
     "title": "Custom Tree",
-    "description": "This project directory is organized using a hierarchical structure to efficiently manage and navigate through various files and directories. Below is a breakdown of the directory tree along with explanations for each directory and file.",
+    "description": "This project is for getting a beautiful custom tree of your project. I'm gonna update it more adding structuring and much more.",
     "github_repo": "https://github.com/dragon-devs/custom-tree",
-    "project_url": "",
+    "project_url": "https://pypi.org/project/custom-tree/",
     "tags": [
       "python",
       "os",
@@ -75,6 +75,53 @@
       "/projects/project4/pic1.png",
       "/projects/project4/pic2.png",
       "/projects/project4/pic3.png"
+    ]
+  },
+  "project5": {
+    "title": "ftms-backend",
+    "description": "Revolutionize football tournaments with our intuitive system. Seamlessly create, manage, and monitor competitions with React and Tailwind CSS frontend, backed by Django API. Effortlessly organize teams, schedule matches, and track tournament history with ease still in progress.",
+    "github_repo": "https://github.com/dragon-devs/ftms-backend",
+    "project_url": "",
+    "tags": [
+      "python",
+      "django",
+      "sqlite",
+      "django-rest-framework",
+      "drf-headers",
+      "django-routers",
+      "rest_api"
+    ],
+    "pictures": [
+      "/projects/project5/pic1.png",
+      "/projects/project5/pic2.png",
+      "/projects/project5/pic3.png",
+      "/projects/project5/pic4.png",
+      "/projects/project5/pic5.png"
+    ]
+  },
+  "project6": {
+    "title": "ftms-frontend",
+    "description": "This is the frontend of ftms-backend(Football Tournament Management System)",
+    "github_repo": "https://github.com/dragon-devs/ftms-frontend",
+    "project_url": "",
+    "tags": [
+      "javascript",
+      "react.js",
+      "tailwindcss",
+      "axios",
+      "react-form-hook",
+      "jest"
+    ],
+    "pictures": [
+      "/projects/project6/pic1.png",
+      "/projects/project6/pic2.png",
+      "/projects/project6/pic3.png",
+      "/projects/project6/pic4.png",
+      "/projects/project6/pic5.png",
+      "/projects/project6/pic6.png",
+      "/projects/project6/pic7.png",
+      "/projects/project6/pic8.png",
+      "/projects/project6/pic9.png"
     ]
   }
 }

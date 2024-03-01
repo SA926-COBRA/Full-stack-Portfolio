@@ -50,7 +50,7 @@ import {
   SwiftOriginalWordmark,
   TailwindcssOriginal,
   TypescriptOriginal,
-  VuejsOriginal,
+  VuejsOriginal, WebflowOriginal, WordpressOriginal,
 } from "devicons-react";
 import {GitHubLogoIcon} from "@radix-ui/react-icons";
 import {SiExpress} from "react-icons/si";
@@ -117,6 +117,8 @@ export const allFrameworks: Framework[] = [
   {value: 'FLUTTER', label: 'Flutter', icon: <FlutterOriginal size={30} color="slategrey"/>},
   {value: 'REACTNATIVE', label: 'ReactNative', icon: <ReactOriginal size={30} color="slategrey"/>},
   {value: 'TAILWINDCSS', label: 'TailwindCss', icon: <TailwindcssOriginal size={30} color="slategrey"/>},
+  {value: 'WEBFLOW', label: 'Webflow', icon: <WebflowOriginal size={30} color="slategrey"/>},
+  {value: 'WORDPRESS', label: 'Wordpress', icon: <WordpressOriginal size={30} color="slategrey"/>},
 ];
 
 const renderSkills = (skills: { [key: string]: boolean }, size: number) => {

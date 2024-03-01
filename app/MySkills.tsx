@@ -13,12 +13,12 @@ const MySkills = ({data}: { data: HeroSection }) => {
           <Container>
             <div className="flex justify-end items-end">
               <div className="flex flex-col gap-3">
-                <div className="font-semibold sm:text-3xl text-2xl">
+                <h1 className="font-semibold sm:text-3xl text-2xl">
                   My Skills
-                </div>
-                <div className="text-muted-foreground">
+                </h1>
+                <h1 className="text-muted-foreground">
                   Technologies I&apos;ve been working with recently.
-                </div>
+                </h1>
                 <div className="sm:w-[23rem] flex gap-3 flex-wrap">
                   <FrameworkIcons skills={data.skills as Skills} size={100} />
                 </div>
