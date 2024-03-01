@@ -31,7 +31,7 @@ const HeroSection = ({data}: Props) => {
         </div>
         <div>
           <Image priority={true} alt="hero_picture" width={500} height={800}
-                 className="w-auto h-auto absolute sm:right-0 sm:-top-20 transform scale-x-[-1] -top-12 -z-10 "
+                 className="absolute sm:right-0 sm:-top-20 transform scale-x-[-1] -top-12 -z-10 "
                  src="/portfolio_hero.png" />
         </div>
       </div>
