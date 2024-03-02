@@ -16,9 +16,9 @@ const MySkills = ({data}: { data: HeroSection }) => {
                 <h1 className="font-semibold sm:text-3xl text-2xl">
                   My Skills
                 </h1>
-                <h1 className="text-muted-foreground">
+                <p className="text-muted-foreground">
                   Technologies I&apos;ve been working with recently.
-                </h1>
+                </p>
                 <div className="sm:w-[23rem] flex gap-3 flex-wrap">
                   <FrameworkIcons skills={data.skills as Skills} size={100} />
                 </div>

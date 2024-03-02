@@ -30,9 +30,9 @@ const MyProjects = () => {
                 <h1 className="font-semibold sm:text-3xl text-2xl">
                   My Projects
                 </h1>
-                <h1 className="text-muted-foreground">
+                <p className="text-muted-foreground">
                   Some things I&apos;ve built so far.
-                </h1>
+                </p>
                 <div className="">
                   <Carousel className="">
                     <CarouselContent className="-ml-1">

@@ -25,9 +25,9 @@ const HeroSection = ({data}: Props) => {
           <h1 className="font-bold text-lg sm:text-2xl ">Hello👋, I&apos;m {my_name}</h1>
           <h1 className="font-black text-4xl sm:text-6xl text-primary/80 dark:text-primary/80 sm:dark:text-primary/60 md:w-[50%]">{job_title}</h1>
           <h2 className="font-medium text-2xl sm:text-4xl">{title_description}</h2>
-          <h3 className="flex sm:gap-3 gap-2 capitalize">
+          <div className="flex sm:gap-3 gap-2 capitalize">
             <ContactIcons socialMedia={social_media as SocialMedia}/>
-          </h3>
+          </div>
         </div>
         <div>
           <Image priority={true} alt="hero_picture" width={500} height={800}

@@ -5,12 +5,13 @@ import {ThemeProvider} from "@/components/ThemeProvider";
 import Container from "@/components/Container";
 import Navbar from "@/app/Navbar";
 import {Toaster} from "@/components/ui/sonner";
+import me from "@/change_data/hero_section.json";
 
 const inter = Inter({subsets: ["latin"]});
 
 export const metadata: Metadata = {
-  title: "My Portfolio 🌟 Home Page 🚀",
-  description: "An open-source portfolio template designed " +
+  title: `${me.my_name} 🌟 Portfolio`,
+  description: "Next.js open source portfolio template designed " +
       "to showcase your projects beautifully. Customize, deploy, " +
       "and impress with ease!🌟🚀",
 };
