@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.6](https://github.com/dragon-devs/my_portfolio/compare/v0.1.5...v0.1.6) (2024-03-03)
+
+
+### Features
+
+* Add loading spinner in project details images ([bc9ea7e](https://github.com/dragon-devs/my_portfolio/commit/bc9ea7ea1b1701e0c2a6dbb907be8f9265d6aff3))
+* Changing Theme ([d7dbe6b](https://github.com/dragon-devs/my_portfolio/commit/d7dbe6b4e93aeb473e2e3be80e396df1c1b768c9))
+* **refactor:** Updated the project ([f8eaebc](https://github.com/dragon-devs/my_portfolio/commit/f8eaebc7da7500ac99e0d309c80cfb004ef6e0fa))
+* updated contact interested in. ([5310ae8](https://github.com/dragon-devs/my_portfolio/commit/5310ae89a364a052a4831c62134467bc58c23206))
+
+
+### Bug Fixes
+
+* fixed some issues and updated meta data. ([59cfe50](https://github.com/dragon-devs/my_portfolio/commit/59cfe502699f05f1ca97416e0c516c15e0aaba09))
+* fixed the Project details image loading spinner. ([aaefd38](https://github.com/dragon-devs/my_portfolio/commit/aaefd38d2bb555bfb5c5af6cd1f68576e84e357e))
+* hero picture bug ([614de13](https://github.com/dragon-devs/my_portfolio/commit/614de13a96947932330b5904e839091b9919d113))
+* updated the README.md instructions ([ac54599](https://github.com/dragon-devs/my_portfolio/commit/ac5459922eafb5cbd5b539fc0407d1b1437460d4))
+
 ### [0.1.5](https://github.com/dragon-devs/my_portfolio/compare/v0.1.4...v0.1.5) (2024-02-29)
 
 
