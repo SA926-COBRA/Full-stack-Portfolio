@@ -25,10 +25,17 @@ Then go change_data directory where you can add you details.
 ```
 cd change_data
 ```
-There are `.json file` for each of the section of the portfolio inspect it add your details then save and you are good to go.
+There are 2 files one is `hero_section.json` where you will fill your details.
+The other one is `projects.json` for projects details your previous that you want to showcase.
+and add the projects images in the `public` directory there is another directory name `projects` then projects follow 
+the sequence as it shown in the provided example.
 
+**You can change the `portfolio_hero.png` add your picture for hero section (optional)**
 
-2. **Edit and Customize:**
+<img width=250 src="public/README.png" alt="Readme.png">
+
+**Edit and Customize:**
+
 Customize the portfolio to your liking by editing the provided templates and content. after cloning:
 ```jupyter
 npm install
@@ -38,8 +45,10 @@ Then run:
 npm run dev
 ```
 visit: [http://localhost:3000](http://localhost:3000)
-3. **Deploy to Your Domain:**
-Upload the customized portfolio to your domain or hosting provider.
+
+**Deploy to Your Domain:**
+
+Upload the customized portfolio to your domain or hosting provider :)
 
 ## Contributing
 
