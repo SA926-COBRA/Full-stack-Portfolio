@@ -4,12 +4,12 @@ import {Badge} from "@/components/ui/badge";
 
 const ExperiencesTimeline = () => {
     return (
-        <div className="sm:py-10 py-5 px-3 flex flex-col">
-            <h1 className="font-semibold sm:text-3xl flex sm:mb-10 mb-5 justify-center text-2xl">
+        <div className="sm:py-10 py-5  flex flex-col">
+            <h1 className="font-semibold sm:text-3xl flex sm:mb-10 mb-5 sm:justify-center text-2xl">
                 My Experience
             </h1>
             {experience.map(item => (
-                <div key={item.title} className="relative flex sm:grid grid-cols-3">
+                <div key={item.title} className="relative px-3 flex sm:grid grid-cols-3">
                     <div className="grid justify-end absolute sm:relative bottom-2 right-0 sm:mr-6 font-semibold mt-1 ">
                         {item.from} - {item.to}
                     </div>
