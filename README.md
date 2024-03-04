@@ -1,6 +1,7 @@
 # My Portfolio
 
-My Portfolio is an open-source project for creating personalized web portfolios. Download, edit, and upload to your domain with ease. Showcase your talents and achievements your way, today.
+My Portfolio is an open-source project for creating personalized web portfolios. Download, edit, and upload to your domain 
+with ease. Showcase your talents and achievements your way, you are welcome to use it :)
 
 ## Key Features
 
@@ -13,12 +14,12 @@ My Portfolio is an open-source project for creating personalized web portfolios.
 
 To get started with My Portfolio, follow these steps:
 
-1. **Clone the Repository:**
-```jupyter
+**Clone the Repository:**
+```bash
 git clone https://github.com/dragon-devs/my-portfolio.git
 ```
 Then go to: 
-```jupyter
+```bash
 cd my-portfolio
 ```
 Then go change_data directory where you can add you details.
@@ -37,18 +38,37 @@ the sequence as it shown in the provided example.
 **Edit and Customize:**
 
 Customize the portfolio to your liking by editing the provided templates and content. after cloning:
-```jupyter
+```bash
 npm install
 ```
 Then run:
-```jupyter
+```bash
 npm run dev
 ```
 visit: [http://localhost:3000](http://localhost:3000)
 
+
 **Deploy to Your Domain:**
 
 Upload the customized portfolio to your domain or hosting provider :)
+
+### Customize your theme:
+go to `change_data` open the `theme.json`:
+```bash
+{
+    "theme": "blue", // you can change this to any available color you want.
+    "radius": "0.5rem"
+}
+```
+**Available Colors:**
+```bash
+    theme: "white" | "blue" | "red" | "rose" | "yellow" | "orange" | "green" | "purple",
+```
+select one of the provide colors then run:
+```bash
+npm run generate-theme
+```
+you will see the changes immediately. if not working [open an issue](https://github.com/dragon-devs/my-portfolio/issues).
 
 ## Contributing
 
