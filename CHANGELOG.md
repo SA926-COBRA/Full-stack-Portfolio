@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.7](https://github.com/dragon-devs/my_portfolio/compare/v0.1.6...v0.1.7) (2024-03-04)
+
+
+### Features
+
+* **theme:** add custom theme. now you can choose a theme ([affebc4](https://github.com/dragon-devs/my_portfolio/commit/affebc4e9f017932312af63752bb620dd4db8603))
+
 ### [0.1.6](https://github.com/dragon-devs/my_portfolio/compare/v0.1.5...v0.1.6) (2024-03-03)
 
 
