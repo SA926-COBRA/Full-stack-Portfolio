@@ -9,7 +9,7 @@ const MySkills = ({data}: { data: HeroSection }) => {
   return (
       <div id="skills">
         <div
-            className="p-5 border-t bg-background sm:p-10 w-[100vw] relative left-[50%] right-[50%] ml-[-50vw] mr-[-50vw]">
+            className="p-5 bg-background sm:p-10 w-[100vw] relative left-[50%] right-[50%] ml-[-50vw] mr-[-50vw]">
           <Container>
             <div className="flex justify-end items-end">
               <div className="flex flex-col gap-3">
