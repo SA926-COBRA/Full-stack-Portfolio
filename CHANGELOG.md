@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.8](https://github.com/dragon-devs/my_portfolio/compare/v0.1.7...v0.1.8) (2024-03-04)
+
+
+### Features
+
+* Build ExperiencesTimeline.tsx section ([bab095a](https://github.com/dragon-devs/my_portfolio/commit/bab095a7df74e71da7b6c02e354a7d3b98463f26))
+
+
+### Bug Fixes
+
+* fix bugs and updated ([7740325](https://github.com/dragon-devs/my_portfolio/commit/774032565b78999a371b9315db95a062689d1308))
+
 ### [0.1.7](https://github.com/dragon-devs/my_portfolio/compare/v0.1.6...v0.1.7) (2024-03-04)
 
 
