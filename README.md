@@ -57,7 +57,7 @@ go to `change_data` open the `theme.json`:
 ```bash
 {
     "theme": "blue", // you can change this to any available color you want.
-    "radius": "0.5rem"
+    "radius": "0.5rem" // change the value for radius of the elements as you want.
 }
 ```
 **Available Colors:**
@@ -70,6 +70,13 @@ npm run generate-theme
 ```
 you will see the changes immediately. if not working [open an issue](https://github.com/dragon-devs/my-portfolio/issues).
 
+### Experience Timeline:
+inside the `change_data` directory there is a new file name `experience.json`
+```bash
+cd change_data
+experience.json
+```
+now you can add your experience edit the file name: `experience.json` fill it with your data. save it.
 ## Contributing
 
 Contributions are welcome! If you'd like to contribute to My Portfolio, please follow these guidelines:
