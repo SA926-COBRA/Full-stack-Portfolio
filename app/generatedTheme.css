@@ -1,0 +1,45 @@
+
+    :root {
+        --background-custom: 0 0% 100%;
+        --foreground-custom: 222.2 84% 4.9%;
+        --card-custom: 0 0% 100%;
+        --card-foreground-custom: 222.2 84% 4.9%;
+        --popover-custom: 0 0% 100%;
+        --popover-foreground-custom: 222.2 84% 4.9%;
+        --primary-custom: 221.2 83.2% 53.3%;
+        --primary-foreground-custom: 210 40% 98%;
+        --secondary-custom: 210 40% 96.1%;
+        --secondary-foreground-custom: 222.2 47.4% 11.2%;
+        --muted-custom: 210 40% 96.1%;
+        --muted-foreground-custom: 215.4 16.3% 46.9%;
+        --accent-custom: 210 40% 96.1%;
+        --accent-foreground-custom: 222.2 47.4% 11.2%;
+        --destructive-custom: 0 84.2% 60.2%;
+        --destructive-foreground-custom: 210 40% 98%;
+        --border-custom: 214.3 31.8% 91.4%;
+        --input-custom: 214.3 31.8% 91.4%;
+        --ring-custom: 221.2 83.2% 53.3%;
+        --radius-custom: 0.5rem;
+    }
+    .dark {
+        --background-custom-dark: 222.2 84% 4.9%;
+        --foreground-custom-dark: 210 40% 98%;
+        --card-custom-dark: 222.2 84% 4.9%;
+        --card-foreground-custom-dark: 210 40% 98%;
+        --popover-custom-dark: 222.2 84% 4.9%;
+        --popover-foreground-custom-dark: 210 40% 98%;
+        --primary-custom-dark: 217.2 91.2% 59.8%;
+        --primary-foreground-custom-dark: 222.2 47.4% 11.2%;
+        --secondary-custom-dark: 217.2 32.6% 17.5%;
+        --secondary-foreground-custom-dark: 210 40% 98%;
+        --muted-custom-dark: 217.2 32.6% 17.5%;
+        --muted-foreground-custom-dark: 215 20.2% 65.1%;
+        --accent-custom-dark: 217.2 32.6% 17.5%;
+        --accent-foreground-custom-dark: 210 40% 98%;
+        --destructive-custom-dark: 0 62.8% 30.6%;
+        --destructive-foreground-custom-dark: 210 40% 98%;
+        --border-custom-dark: 217.2 32.6% 17.5%;
+        --input-custom-dark: 217.2 32.6% 17.5%;
+        --ring-custom-dark: 224.3 76.3% 48%;
+    }
+    

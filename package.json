@@ -4,10 +4,11 @@
   "private": true,
   "scripts": {
     "release": "standard-version",
-    "dev": "next dev",
-    "build": "next build",
+    "dev": "node generate-theme.js && next dev",
+    "build": "node generate-theme.js && next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "generate-theme": "node generate-theme.js"
   },
   "dependencies": {
     "@radix-ui/react-aspect-ratio": "^1.0.3",

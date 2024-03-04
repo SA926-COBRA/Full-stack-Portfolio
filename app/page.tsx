@@ -7,6 +7,7 @@ import MyProjects from "@/app/MyProjects";
 import ContactSection from "@/app/ContactSection";
 import Footer from "@/app/Footer";
 
+
 export default function Home() {
   return (
       <main className="flex flex-col sm:gap-10 gap-5">
