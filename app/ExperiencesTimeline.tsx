@@ -10,7 +10,7 @@ const ExperiencesTimeline = () => {
             </h1>
             {experience.map(item => (
                 <div key={item.title} className="relative px-3 flex sm:grid grid-cols-3">
-                    <div className="grid justify-end absolute sm:relative bottom-2 right-0 sm:mr-6 font-semibold mt-1 ">
+                    <div className="grid justify-end absolute sm:relative bottom-2 font-bold right-0 sm:mr-6 mt-3 ">
                         {item.from} - {item.to}
                     </div>
                     <ol className="relative border-s-2 col-span-2 border-primary dark:border-primary">
