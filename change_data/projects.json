@@ -26,7 +26,7 @@
     "title": "Issue Tracker",
     "description": "Issue Tracker is a TypeScript-based web application built with Next.js and Prisma. It features seamless issue tracking, user authentication, and responsive design for versatile usability.",
     "github_repo": "https://github.com/dragon-devs/issue-tracker",
-    "project_url": "https://issue-tracker-pied.vercel.app/issues/list",
+    "project_url": "https://issue-tracker-ten-rose.vercel.app/issues/list",
     "tags": [
       "typescript",
       "nextjs",

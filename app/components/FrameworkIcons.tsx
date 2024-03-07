@@ -9,7 +9,8 @@ import {
   CsharpOriginal,
   Css3Original,
   DartOriginal,
-  DjangoPlainWordmark, DjangorestLineWordmark, DjangorestOriginal, DjangorestPlain, DjangorestPlainWordmark,
+  DjangoPlain,
+  DjangorestPlain,
   DockerOriginalWordmark,
   DotnetcoreOriginal,
   DotNetOriginal,
@@ -17,6 +18,7 @@ import {
   FlaskOriginal,
   FlutterOriginal,
   GitlabOriginalWordmark,
+  GitOriginal,
   GooglecloudOriginal,
   GoOriginal,
   Html5Original,
@@ -28,7 +30,7 @@ import {
   KubernetesOriginalWordmark,
   LaravelOriginal,
   MicrosoftsqlserverOriginalWordmark,
-  MongodbOriginalWordmark,
+  MongodbOriginal,
   MysqlOriginalWordmark,
   NextjsOriginal,
   NodejsOriginal,
@@ -50,11 +52,13 @@ import {
   SwiftOriginalWordmark,
   TailwindcssOriginal,
   TypescriptOriginal,
-  VuejsOriginal, WebflowOriginal, WordpressOriginal,
+  VuejsOriginal,
+  WebflowOriginal,
+  WordpressOriginal,
 } from "devicons-react";
-import {GitHubLogoIcon} from "@radix-ui/react-icons";
 import {SiExpress} from "react-icons/si";
 import {Tooltip, TooltipContent, TooltipProvider, TooltipTrigger} from "@/components/ui/tooltip";
+import {AiFillGithub} from "react-icons/ai";
 
 interface Framework {
   value: string;
@@ -67,7 +71,7 @@ export const allFrameworks: Framework[] = [
   {value: 'NODEJS', label: 'Node.js', icon: <NodejsOriginal size={30} color="slategrey"/>},
   {value: 'NEXTJS', label: 'Next.js', icon: <NextjsOriginal size={30} color="slategrey"/>},
   {value: 'PYTHON', label: 'Python', icon: <PythonOriginal size={30} color="slategrey"/>},
-  {value: 'DJANGO', label: 'Django', icon: <DjangoPlainWordmark size={30} color="darkgreen"/>},
+  {value: 'DJANGO', label: 'Django', icon: <DjangoPlain size={30} color="darkgreen"/>},
   {value: 'DJANGOREST', label: 'DjangoRestFramework', icon: <DjangorestPlain size={30} color="slategrey"/>},
   {value: 'FLASK', label: 'Flask', icon: <FlaskOriginal size={30} color="slategrey"/>},
   {value: 'FASTAPI', label: 'FastAPI', icon: <FastapiOriginal size={30} color="slategrey"/>},
@@ -87,7 +91,8 @@ export const allFrameworks: Framework[] = [
   {value: 'ANGULAR', label: 'Angular', icon: <AngularjsOriginal size={30} color="slategrey"/>},
   {value: 'VUEJS', label: 'Vue.js', icon: <VuejsOriginal size={30} color="slategrey"/>},
   {value: 'DOTNET', label: '.NET', icon: <DotnetcoreOriginal size={30} color="slategrey"/>},
-  {value: 'GITHUB', label: 'Github', icon: <GitHubLogoIcon color="slategrey"/>},
+  {value: 'GITHUB', label: 'Github', icon: <AiFillGithub size={30} color="slategrey"/>},
+  {value: 'GIT', label: 'Git', icon: <GitOriginal size={30} color="slategrey"/>},
   {value: 'HTML', label: 'HTML5', icon: <Html5Original size={30} color="slategrey"/>},
   {value: 'CSS', label: 'CSS3', icon: <Css3Original size={30} color="slategrey"/>},
   {value: 'SQL', label: 'SQL', icon: <MicrosoftsqlserverOriginalWordmark size={30} color="slategrey"/>},
@@ -95,7 +100,7 @@ export const allFrameworks: Framework[] = [
   {value: 'POSTGRESQL', label: 'Postgresql', icon: <PostgresqlOriginalWordmark size={30} color="slategrey"/>},
   {value: 'SQLITE', label: 'Sqlite', icon: <SqliteOriginalWordmark size={30} color="slategrey"/>},
   {value: 'SQLALCHEMY', label: 'Sqlalchemy', icon: <SqlalchemyOriginalWordmark size={30} color="slategrey"/>},
-  {value: 'MONGODB', label: 'MongoDB', icon: <MongodbOriginalWordmark size={30} color="slategrey"/>},
+  {value: 'MONGODB', label: 'MongoDB', icon: <MongodbOriginal size={30} color="slategrey"/>},
   {value: 'C', label: 'C', icon: <COriginal size={30} color="slategrey"/>},
   {value: 'R', label: 'R', icon: <ROriginal size={30} color="slategrey"/>},
   {value: 'SWIFTUI', label: 'SwiftUi', icon: <SwiftOriginalWordmark size={30} color="slategrey"/>},
@@ -136,7 +141,7 @@ const renderSkills = (skills: { [key: string]: boolean }, size: number) => {
                         <Tooltip>
                           <TooltipTrigger>
                             <div
-                                className="sm:w-12 sm:h-12 w-10 h-10  bg-muted overflow-hidden flex justify-center items-center rounded-md">
+                                className="sm:w-12 sm:h-12 w-10 h-10 hover:scale-110  animate-[] transition-all duration-500 hover:shadow-primary shadow-lg   bg-muted overflow-hidden flex justify-center items-center rounded-md">
                               {framework.icon}
                             </div>
                           </TooltipTrigger>
@@ -160,7 +165,7 @@ const renderSkills = (skills: { [key: string]: boolean }, size: number) => {
 const FrameworkIcons = ({skills, size}: { skills: { [key: string]: boolean }, size: number }) => {
   return (
       <div className="framework-list">
-        <div className="flex gap-3 flex-wrap">
+        <div className="flex gap-3 flex-wrap ">
           {renderSkills(skills, size)}
         </div>
       </div>

@@ -14,6 +14,9 @@ const AboutMe = () => {
               <p className="text-muted-foreground sm:w-[47%] sm:leading-8">
                 {me.about_me}
               </p>
+                <div className="flex-wrap flex gap-2">
+                    <p>"Simplicity is the key of brilliance"</p><p className="font-semibold"> - Bruce lee</p>
+                </div>
             </div>
           </Container>
         </div>

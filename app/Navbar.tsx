@@ -27,7 +27,7 @@ const Navbar = () => {
   return (
       <div className="">
         <Container>
-          <div className="flex my-3 sm: xl:mx-0 mx-5 justify-between items-center">
+          <div className="flex ober my-3 sm: xl:mx-0 mx-5 justify-between items-center">
             <Avatar className="hover:shadow-primary transition-all duration-500 shadow-xl shadow-primary/50 ">
               <AvatarImage rel="apple-touch-icon" src="favicon.ico"/>
               <AvatarFallback>DP</AvatarFallback>

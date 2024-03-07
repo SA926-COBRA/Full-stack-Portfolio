@@ -18,7 +18,6 @@ const HeroSection = ({data}: Props) => {
     social_media
   } = data;
 
-
   return (
       <div className="relative flex flex-col-reverse">
         <div className="flex flex-col gap-3 rounded-md bg-background sm:p-0 p-5 sm:mt-0 mt-52 pt-3 sm:mb-0 sm:pt-0 sm:pb-0 sm:bg-transparent">

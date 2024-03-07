@@ -67,7 +67,7 @@ const ContactForm = () => {
                 </div>
                 <div className="flex flex-col justify-end gap-5">
                   <div>I&apos;m interested in ...</div>
-                  <RadioGroup defaultValue={interested} className="flex flex-wrap">
+                  <RadioGroup defaultValue={interested} className="flex flex-wrap ">
                     {me.i_will_do.map(item => (
                         <div key={item}>
                           <RadioGroupItem
@@ -81,7 +81,9 @@ const ContactForm = () => {
                           />
                           <Label
                               htmlFor={item}
-                              className={`flex flex-col items-center capitalize justify-between rounded-md border border-primary bg-popover p-2 hover:bg-accent hover:text-accent-foreground ${interested === item ? 'peer-data-[state=checked]:bg-primary peer-data-[state=checked]:text-background [&:has([data-state=checked])]:bg-primary' : ''}`}
+                              className={`flex flex-col items-center capitalize justify-between rounded-md border 
+                              border-primary transition-all duration-300 bg-popover shadow-lg hover:shadow-primary p-2 hover:bg-accent hover:text-accent-foreground 
+                              ${interested === item ? 'peer-data-[state=checked]:bg-primary peer-data-[state=checked]:text-background [&:has([data-state=checked])]:bg-primary' : ''}`}
                           >
                             {item}
                           </Label>
