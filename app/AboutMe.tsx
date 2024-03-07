@@ -15,7 +15,7 @@ const AboutMe = () => {
                 {me.about_me}
               </p>
                 <div className="flex-wrap flex gap-2">
-                    <p>"Simplicity is the key of brilliance"</p><p className="font-semibold"> - Bruce lee</p>
+                    <p>&quot;Simplicity is the key of brilliance&quot;</p><p className="font-semibold"> - Bruce lee</p>
                 </div>
             </div>
           </Container>
