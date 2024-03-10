@@ -3,7 +3,7 @@
     "title": "Project Manager",
     "description": "Project Manager is a comprehensive, open-source solution crafted from scratch for software houses and organizations in need of efficient workflow management. It is meticulously designed to streamline operations, providing comprehensive tools to seamlessly oversee projects, tasks, and resources.",
     "github_repo": "https://github.com/dragon-devs/project-manager",
-    "project_url": "https://project-manager-mu-teal.vercel.app/projects/grid",
+    "project_url": "https://project-manager-mu-teal.vercel.app",
     "tags": [
       "typescript",
       "nextjs",
@@ -19,7 +19,8 @@
       "/projects/project1/pic5.png",
       "/projects/project1/pic6.png",
       "/projects/project1/pic7.png",
-      "/projects/project1/pic8.png"
+      "/projects/project1/pic8.png",
+      "/projects/project1/pic9.png"
     ]
   },
   "project2": {
