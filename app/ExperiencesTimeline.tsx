@@ -4,7 +4,7 @@ import {Badge} from "@/components/ui/badge";
 
 const ExperiencesTimeline = () => {
     return (
-        <div className="sm:py-10 py-5  flex flex-col">
+        <div className="sm:py-10 py-5  flex flex-col animate-fade-right">
             <h1 className="font-semibold sm:text-3xl flex sm:mb-10 mb-5 sm:justify-center text-2xl">
                 My Experience
             </h1>

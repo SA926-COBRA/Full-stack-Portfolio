@@ -8,9 +8,9 @@ type Skills = {
 const SeparatorBar = ({data}: { data: HeroSection }) => {
 
   return (
-      <div className="sm:px-10 px-5 py-3 bg-background w-[100vw] relative left-[50%] right-[50%] ml-[-50vw] mr-[-50vw]">
+      <div className="sm:px-10  px-5 py-3 bg-background w-[100vw] relative left-[50%] right-[50%] ml-[-50vw] mr-[-50vw]">
         <Container>
-          <div className="flex md:flex-row gap-3 flex-col justify-between">
+          <div className="flex md:flex-row gap-3 flex-col animate-fade-down justify-between">
             <div className="flex sm:flex-row flex-col gap-3 sm:gap-12">
             <div className="sm:flex grid grid-cols-4 gap-3">
               <h1 className="font-bold text-5xl">{data.experience_years}</h1>

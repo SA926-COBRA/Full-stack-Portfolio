@@ -9,7 +9,7 @@ interface SocialMedia {
 
 const Footer = ({data}: { data: HeroSection }) => {
   return (
-      <div className="flex justify-between items-center flex-col gap-5 sm:flex-row ">
+      <div className="flex justify-between items-center animate-fade-up flex-col gap-5 sm:flex-row ">
         <div className="flex sm:flex-row flex-col items-center gap-5 sm:gap-10">
           <Avatar className="shadow-xl shadow-primary ">
             <AvatarImage rel="apple-touch-icon" src="favicon.ico"/>

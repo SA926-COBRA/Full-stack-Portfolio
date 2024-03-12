@@ -31,7 +31,7 @@ export default function RootLayout({children,}: Readonly<{
       >
         <div className="flex flex-col min-h-screen overflow-x-hidden">
           <Navbar/>
-          <main className="flex-grow sm:p-10 p-5 bg-gradient-to-r from-primary/25">
+          <main className="flex-grow sm:p-10 p-5  bg-gradient-to-r from-primary/25">
             <Container>{children}</Container>
           </main>
           <Toaster position="top-center"/>

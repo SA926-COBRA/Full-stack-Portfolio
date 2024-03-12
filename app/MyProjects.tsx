@@ -37,7 +37,7 @@ const Dot = ({count, current}: { count: number, current: number }) => {
 
     return (
         <div
-            className={`h-2 w-2 rounded-full mx-1 duration-300 ${
+            className={`h-2 w-2 rounded-full mx-1 animate-fade-down duration-300 ${
                 active ? 'bg-primary scale-125' : 'bg-muted'
             }`}
         />
@@ -69,7 +69,7 @@ const MyProjects = () => {
             <div
                 className="p-5 border-t bg-background sm:p-10 w-[100vw] relative left-[50%] right-[50%] ml-[-50vw] mr-[-50vw]">
                 <Container>
-                    <div className="">
+                    <div className="animate-fade-up">
                         <div className="flex flex-col gap-3">
                             <h1 className="font-semibold sm:text-3xl text-2xl">
                                 My Projects
