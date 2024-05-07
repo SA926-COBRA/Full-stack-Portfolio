@@ -29,13 +29,13 @@ const HeroSection = ({ data }: Props) => {
           <ContactIcons socialMedia={social_media as SocialMedia} />
         </div>
       </div>
-      <div className="animate-fade-right">
+      <div>
         <Image
           priority={true}
           alt="hero_picture"
           width={500}
           height={800}
-          className="scale-x-[-1] absolute sm:right-0 sm:-top-20 h-auto w-[25rem] -top-12 -z-10 "
+          className="animate-fade-right absolute sm:right-0 sm:-top-20 h-auto w-[25rem] -top-12 -z-10 "
           src="/portfolio_hero.png"
         />
       </div>
