@@ -23,24 +23,47 @@
       "/projects/project1/pic9.png"
     ]
   },
-  "project2": {
-    "title": "Issue Tracker",
-    "description": "Issue Tracker is a TypeScript-based web application built with Next.js and Prisma. It features seamless issue tracking, user authentication, and responsive design for versatile usability.",
-    "github_repo": "https://github.com/dragon-devs/issue-tracker",
-    "project_url": "https://issue-tracker-ten-rose.vercel.app/issues/list",
+  "project8": {
+    "title": "MedLab Manager",
+    "description": "MedLab Manager is a comprehensive management system for companies selling laboratory tools and medications. It streamlines inventory tracking, sales, and customer invoice records, providing an efficient solution for managing all aspects of your lab supply business.",
+    "github_repo": "",
+    "project_url": "https://medlab-manager.vercel.app/",
     "tags": [
       "typescript",
       "nextjs",
-      "prisma",
-      "sentry",
+      "reactjs",
       "postgresql",
-      "python"
+      "shadcn",
+      "tailwindcss"
     ],
     "pictures": [
-      "/projects/project2/pic1.png",
-      "/projects/project2/pic2.png",
-      "/projects/project2/pic3.png",
-      "/projects/project2/pic4.png"
+      "/projects/project8/pic1.png",
+      "/projects/project8/pic2.png",
+      "/projects/project8/pic3.png",
+      "/projects/project8/pic4.png",
+      "/projects/project8/pic5.png",
+      "/projects/project8/pic6.png"
+    ]
+  },
+  "project2": {
+    "title": "Gallery Next",
+    "description": "Gallery Next is a web application designed for seamless image uploads and management. With features like authentication and permissions, users can securely upload their images using UploadThing. Users can also update their profile pictures and log in effortlessly via Google or GitHub.",
+    "github_repo": "https://github.com/dragon-devs/gallary-next",
+    "project_url": "https://gallary-next.vercel.app/",
+    "tags": [
+      "typescript",
+      "nextjs",
+      "clerk",
+      "sentry",
+      "postgresql",
+      "posthog",
+      "shadcn",
+      "tailwindcss"
+    ],
+    "pictures": [
+      "/projects/project7/pic1.png",
+      "/projects/project7/pic2.png"
+
     ]
   },
   "project3": {
@@ -123,6 +146,26 @@
       "/projects/project6/pic7.png",
       "/projects/project6/pic8.png",
       "/projects/project6/pic9.png"
+    ]
+  },
+  "project7": {
+    "title": "Issue Tracker",
+    "description": "Issue Tracker is a TypeScript-based web application built with Next.js and Prisma. It features seamless issue tracking, user authentication, and responsive design for versatile usability.",
+    "github_repo": "https://github.com/dragon-devs/issue-tracker",
+    "project_url": "https://issue-tracker-ten-rose.vercel.app/issues/list",
+    "tags": [
+      "typescript",
+      "nextjs",
+      "prisma",
+      "sentry",
+      "postgresql",
+      "python"
+    ],
+    "pictures": [
+      "/projects/project2/pic1.png",
+      "/projects/project2/pic2.png",
+      "/projects/project2/pic3.png",
+      "/projects/project2/pic4.png"
     ]
   }
 }
