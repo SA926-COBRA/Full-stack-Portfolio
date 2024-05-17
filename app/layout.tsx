@@ -11,9 +11,7 @@ const inter = Inter({subsets: ["latin"]});
 
 export const metadata: Metadata = {
   title: `${me.my_name} 🌟 Portfolio`,
-  description: "Next.js open source portfolio template designed " +
-      "to showcase your projects beautifully. Customize, deploy, " +
-      "and impress with ease!🌟🚀",
+  description: "I build things for web. 🌟🚀",
 };
 
 
