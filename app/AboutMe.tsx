@@ -16,8 +16,7 @@ const AboutMe = () => {
                             {me.about_me}
                         </p>
                         <div className="flex-wrap flex gap-2 animate-fade-left">
-
-                            <p>&quot;Simplicity is the key to brilliance&quot;</p><p className=" font-bold"> - Bruce
+                            <p>&quot;Simplicity is the key to brilliance&quot;</p><p className="font-semibold"> - Bruce
                             lee</p>
                         </div>
                     </div>
