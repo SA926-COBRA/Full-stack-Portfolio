@@ -17,10 +17,10 @@ const MySkills = ({data}: { data: HeroSection }) => {
                   My Skills
                 </h1>
                 <p className="text-muted-foreground">
-                  Technologies I&apos;ve been working with recently.
+                  Technologies I&apos;ve been working with recently
                 </p>
                 <div className="sm:w-[23rem] flex gap-3 flex-wrap">
-                  <FrameworkIcons skills={data.skills as Skills} size={100} />
+                  <FrameworkIcons skills={data.skills as Skills} size={100}/>
                 </div>
               </div>
             </div>
