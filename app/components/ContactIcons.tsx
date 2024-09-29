@@ -5,13 +5,13 @@ import {
   IoLogoGithub,
   IoLogoInstagram,
   IoLogoLinkedin,
-  IoLogoTwitter,
   IoLogoWhatsapp,
   IoLogoYoutube
 } from "react-icons/io";
 import {IoLogoBehance} from "react-icons/io5";
 import {SiGmail} from "react-icons/si";
-import {QuestionMarkCircledIcon, QuestionMarkIcon} from "@radix-ui/react-icons";
+import {QuestionMarkCircledIcon} from "@radix-ui/react-icons";
+import {BsTwitterX} from "react-icons/bs";
 
 interface Framework {
   value: string;
@@ -24,7 +24,7 @@ export const allContacts: Framework[] = [
   {value: 'facebook', label: 'Facebook', icon: <IoLogoFacebook size={25}/>},
   {value: 'instagram', label: 'Instagram', icon: <IoLogoInstagram size={25}/>},
   {value: 'linkedin', label: 'Linkedin', icon: <IoLogoLinkedin size={25}/>},
-  {value: 'twitter', label: 'Twitter', icon: <IoLogoTwitter size={25}/>},
+  {value: 'twitter', label: 'Twitter', icon: <BsTwitterX size={18}/>},
   {value: 'behance', label: 'Bahance', icon: <IoLogoBehance size={25}/>},
   {value: 'youtube', label: 'Youtube', icon: <IoLogoYoutube size={25}/>},
   {value: 'other', label: 'Other', icon: <QuestionMarkCircledIcon />},
