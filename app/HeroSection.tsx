@@ -16,9 +16,9 @@ const HeroSection = ({ data }: Props) => {
   return (
     <div className="relative flex flex-col-reverse ">
       <div className="flex flex-col gap-3 rounded-md bg-background sm:p-0  p-5 sm:mt-0 mt-52 pt-3 sm:mb-0 sm:pt-0 sm:pb-0 sm:bg-transparent">
-        <h1 className="animate-fade-left font-bold text-lg sm:text-2xl tracking-tight sm:mt-0 mt-2 ">
+        <p className="animate-fade-left font-bold text-lg sm:text-2xl tracking-tight sm:mt-0 mt-2 ">
           Hello👋, I&apos;m {my_name}
-        </h1>
+        </p>
         <h1
           className="animate-fade-left tracking-tight font-black text-4xl sm:text-6xl text-primary/80 dark:text-primary/80 sm:dark:text-primary/60 md:w-[45%]">
           {job_title}
