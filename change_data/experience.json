@@ -4,20 +4,27 @@
     "to": "2018",
     "title": "Graphic Designer",
     "company": "Leadersign",
-    "description": "Graphic Designer at LEADER SIGN in the UAE for a year. I work as a graphic designer and made countless designs logos, 3D signboard and brand identity."
+    "description": "Worked as a Graphic Designer at LEADER SIGN in the UAE for a year. Created a wide range of designs, including logos, 3D signboards, and comprehensive brand identities, contributing to the visual branding and marketing success of various clients."
   },
   {
     "from": "2018",
     "to": "2020",
     "title": "Freelancer",
     "company": "Jacolink",
-    "description": "I've written Python scripts for multiple clients, developed Django REST APIs, and served as a Graphic and Website Designer at JACOLINK in UAE for a year, among other roles."
+    "description": "Provided freelance services for multiple clients, including Python scripting, developing Django REST APIs, and designing websites and graphics. Collaborated as a Graphic and Website Designer for JACOLINK in the UAE, delivering high-quality solutions tailored to client needs."
   },
   {
     "from": "2020",
     "to": "2023",
-    "title": "Full-stack",
-    "company": "Self Employment",
-    "description": "I am passionate about acquiring new skills, exploring emerging technologies, and engaging in personal projects to enhance my problem-solving abilities. and much more..."
+    "title": "Programmer",
+    "company": "Self-Employed",
+    "description": "Dedicated to continuous learning and exploring emerging technologies. Engaged in diverse personal projects to enhance problem-solving skills and deepen technical expertise across various domains, from programming to system design."
+  },
+  {
+    "from": "2023",
+    "to": "2024",
+    "title": "Developer",
+    "company": "OBS-Employed",
+    "description": "Worked in collaboration with the highly experienced owner of OBS, who has over 20+ years of expertise in software development. Contributed as a developer and designer on a comprehensive learning management system project designed for schools and colleges. Responsibilities included designing intuitive interfaces, implementing core functionality, and ensuring seamless user experiences tailored to the needs of educational institutions."
   }
 ]

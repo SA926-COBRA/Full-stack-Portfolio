@@ -1,5 +1,32 @@
-{
-  "project1": {
+[
+  {
+    "title": "BizStock",
+    "description": "BizStock is a robust and scalable inventory management system built from the ground up for businesses of all sizes, from small enterprises to large organizations. It offers powerful tools for managing vendors, customers, products, purchase orders, sales, and more. Designed with a focus on efficiency, scalability, and ease of use, BizStock provides seamless features such as multi-tenancy, advanced reporting, and customizable workflows to help businesses streamline their operations and maximize productivity.",
+    "github_repo": "",
+    "project_url": "https://bizstock.net/",
+    "tags": [
+      "typescript",
+      "nextjs",
+      "reactjs",
+      "tailwindcss",
+      "mongodb",
+      "shadcn/ui",
+      "zustand",
+      "axios"
+    ],
+    "pictures": [
+      "/projects/project9/pic1.png",
+      "/projects/project9/pic2.png",
+      "/projects/project9/pic3.png",
+      "/projects/project9/pic4.png",
+      "/projects/project9/pic5.png",
+      "/projects/project9/pic6.png",
+      "/projects/project9/pic7.png",
+      "/projects/project9/pic8.png",
+      "/projects/project9/pic9.png"
+    ]
+  },
+  {
     "title": "Project Manager",
     "description": "Project Manager is a comprehensive, open-source solution crafted from scratch for software houses and organizations in need of efficient workflow management. It is meticulously designed to streamline operations, providing comprehensive tools to seamlessly oversee projects, tasks, and resources.",
     "github_repo": "https://github.com/dragon-devs/project-manager",
@@ -23,7 +50,7 @@
       "/projects/project1/pic9.png"
     ]
   },
-  "project8": {
+  {
     "title": "MedLab Manager",
     "description": "MedLab Manager is a comprehensive management system for companies selling laboratory tools and medications. It streamlines inventory tracking, sales, and customer invoice records, providing an efficient solution for managing all aspects of your lab supply business.",
     "github_repo": "",
@@ -45,7 +72,7 @@
       "/projects/project8/pic6.png"
     ]
   },
-  "project2": {
+  {
     "title": "Gallery Next",
     "description": "Gallery Next is a web application designed for seamless image uploads and management. With features like authentication and permissions, users can securely upload their images using UploadThing. Users can also update their profile pictures and log in effortlessly via Google or GitHub.",
     "github_repo": "https://github.com/dragon-devs/gallary-next",
@@ -63,10 +90,9 @@
     "pictures": [
       "/projects/project7/pic1.png",
       "/projects/project7/pic2.png"
-
     ]
   },
-  "project3": {
+  {
     "title": "Chat App",
     "description": "ChatApp is a from-scratch, open-source Django full-stack application. It facilitates account creation, profile updates, random chat room participation, online user visibility, and private messaging capabilities etc.",
     "github_repo": "https://github.com/dragon-devs/chatapp",
@@ -85,7 +111,7 @@
       "/projects/project3/pic4.png"
     ]
   },
-  "project4": {
+  {
     "title": "Custom Tree",
     "description": "This project is for getting a beautiful custom tree of your project. I'm gonna update it more adding structuring and much more.",
     "github_repo": "https://github.com/dragon-devs/custom-tree",
@@ -101,7 +127,7 @@
       "/projects/project4/pic3.png"
     ]
   },
-  "project5": {
+  {
     "title": "ftms-backend",
     "description": "Revolutionize football tournaments with our intuitive system. Seamlessly create, manage, and monitor competitions with React and Tailwind CSS frontend, backed by Django API. Effortlessly organize teams, schedule matches, and track tournament history with ease still in progress.",
     "github_repo": "https://github.com/dragon-devs/ftms-backend",
@@ -123,7 +149,7 @@
       "/projects/project5/pic5.png"
     ]
   },
-  "project6": {
+  {
     "title": "ftms-frontend",
     "description": "This is the frontend of ftms-backend(Football Tournament Management System)",
     "github_repo": "https://github.com/dragon-devs/ftms-frontend",
@@ -148,7 +174,7 @@
       "/projects/project6/pic9.png"
     ]
   },
-  "project7": {
+  {
     "title": "Issue Tracker",
     "description": "Issue Tracker is a TypeScript-based web application built with Next.js and Prisma. It features seamless issue tracking, user authentication, and responsive design for versatile usability.",
     "github_repo": "https://github.com/dragon-devs/issue-tracker",
@@ -168,4 +194,4 @@
       "/projects/project2/pic4.png"
     ]
   }
-}
+]

@@ -13,9 +13,9 @@ const MySkills = ({data}: { data: HeroSection }) => {
           <Container>
             <div className="flex justify-end items-end animate-fade-up">
               <div className="flex flex-col gap-3">
-                <h1 className="font-semibold sm:text-3xl text-2xl">
+                <h2 className="tracking-tighter font-semibold sm:text-3xl text-2xl">
                   My Skills
-                </h1>
+                </h2>
                 <p className="text-muted-foreground">
                   Technologies I&apos;ve been working with recently
                 </p>

@@ -1,7 +1,7 @@
 'use client';
 
 import * as React from "react";
-import { CardContent } from "@/components/ui/card";
+import {CardContent} from "@/components/ui/card";
 import {
   Carousel,
   type CarouselApi,
@@ -75,8 +75,8 @@ const ProjectDetails = ({ project }: { project: Project }) => {
                       <Image
                           src={pic}
                           alt="Project"
-                          className="rounded-sm w-auto h-auto object-cover"
-                          width={1024}
+                          className="rounded-md sm:rounded-xl w-auto h-auto object-cover"
+                          width={2000}
                           height={1024}
                           onLoadingComplete={() => handleImageLoad(index)}
                       />

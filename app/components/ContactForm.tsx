@@ -60,11 +60,11 @@ const ContactForm = () => {
           <Container>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-3 sm:gap-4">
               <div className="grid grid-rows-2 animate-fade-left">
-                <div className="font-bold sm:text-3xl text-2xl sm:w-96 mr-5">
+                <p className="tracking-tight font-bold sm:text-3xl text-2xl sm:w-96 mr-5">
                   Let&apos;s discuss on something
                   <span className="text-primary"> cool </span>
                   together
-                </div>
+                </p>
                 <div className="flex flex-col justify-end gap-5">
                   <div>I&apos;m interested in ...</div>
                   <RadioGroup defaultValue={interested} className="flex flex-wrap ">

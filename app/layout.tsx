@@ -10,8 +10,8 @@ import me from "@/change_data/hero_section.json";
 const inter = Inter({subsets: ["latin"]});
 
 export const metadata: Metadata = {
-  title: `${me.my_name} 🌟 Portfolio`,
-  description: "I build things for web. 🌟🚀",
+  title: `${me.my_name} 🌟 Portfolio - DragonDevs`,
+  description: "Experienced web apps programmer, developer and designer specializing in building fast, scalable, and innovative solutions for the modern web. 🚀🌟 - dragondevs",
 };
 
 

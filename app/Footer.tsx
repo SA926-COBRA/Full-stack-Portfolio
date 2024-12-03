@@ -17,14 +17,14 @@ const Footer = ({data}: { data: HeroSection }) => {
           </Avatar>
           <div className="text-muted-foreground sm:text-sm text-xs flex justify-center sm:justify-start">
             <div className="flex sm:flex-row flex-col gap-0 sm:gap-2">
-              <div>
+              <p>
                 Built & designed by <Link className="underline font-semibold hover:text-foreground transition-all"
                     href="https://github.com/dragon-devs">dragon-devs</Link>.
-              </div>
-              <div>
+              </p>
+              <p>
                 The source code is available on <Link className="underline font-semibold hover:text-foreground transition-all"
                     href="https://github.com/dragon-devs/my-portfolio">Github</Link>.
-              </div>
+              </p>
             </div>
           </div>
 
