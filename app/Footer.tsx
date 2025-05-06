@@ -21,7 +21,7 @@ const Footer = ({data}: { data: HeroSection }) => {
               <p className="flex gap-1">
                 <span className="text-muted-foreground">Developed & designed by</span> <Link
                 className="flex items-center hover:underline hover:text-foreground transition-all font-semibold"
-                href="https://github.com/dragon-devs ">
+                href="https://github.com/SA926-COBRA ">
                 <Image src='/dragondevs-logo.png'
                        alt='dragondevs'
                        width={100}
@@ -32,7 +32,7 @@ const Footer = ({data}: { data: HeroSection }) => {
               <p>
                 The source code is available on <Link
                 className="underline font-semibold hover:text-foreground transition-all"
-                href="https://github.com/dragon-devs/my-portfolio">Github</Link>.
+                href="https://github.com/SA926-COBRA/Full-stack-Portfolio">Github</Link>.
               </p>
             </div>
           </div>

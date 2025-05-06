@@ -16,11 +16,11 @@ To get started with My Portfolio, follow these steps:
 
 **Clone the Repository:**
 ```bash
-git clone https://github.com/dragon-devs/my-portfolio.git
+git clone https://github.com/SA926-COBRA/Full-stack-Portfolio.git
 ```
 Then go to: 
 ```bash
-cd my-portfolio
+cd Full-stack-Portfolio
 ```
 Then go change_data directory where you can add you details.
 ```
@@ -68,7 +68,7 @@ select one of the provide colors then run:
 ```bash
 npm run generate-theme
 ```
-you will see the changes immediately. if not working [open an issue](https://github.com/dragon-devs/my-portfolio/issues).
+you will see the changes immediately. if not working [open an issue](https://github.com/SA926-COBRA/Full-stack-Portfolio/issues).
 
 ### Experience Timeline:
 inside the `change_data` directory there is a new file name `experience.json`
@@ -92,7 +92,7 @@ My Portfolio is licensed under the [MIT License](LICENSE).
 
 ## Support
 
-For support, bug reports, or feature requests, please [open an issue](https://github.com/dragon-devs/my-portfolio/issues).
+For support, bug reports, or feature requests, please [open an issue](https://github.com/SA926-COBRA/Full-stack-Portfolio/issues).
 
 ## About
 

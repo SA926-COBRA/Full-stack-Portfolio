@@ -29,7 +29,7 @@
   {
     "title": "Project Manager",
     "description": "Project Manager is a comprehensive, open-source solution crafted from scratch for software houses and organizations in need of efficient workflow management. It is meticulously designed to streamline operations, providing comprehensive tools to seamlessly oversee projects, tasks, and resources.",
-    "github_repo": "https://github.com/dragon-devs/project-manager",
+    "github_repo": "https://github.com/SA926-COBRA/project-manager",
     "project_url": "https://project-manager-mu-teal.vercel.app",
     "tags": [
       "typescript",
@@ -75,7 +75,7 @@
   {
     "title": "Gallery Next",
     "description": "Gallery Next is a web application designed for seamless image uploads and management. With features like authentication and permissions, users can securely upload their images using UploadThing. Users can also update their profile pictures and log in effortlessly via Google or GitHub.",
-    "github_repo": "https://github.com/dragon-devs/gallary-next",
+    "github_repo": "https://github.com/SA926-COBRA/gallary-next",
     "project_url": "https://gallary-next.vercel.app/",
     "tags": [
       "typescript",
@@ -95,7 +95,7 @@
   {
     "title": "Chat App",
     "description": "ChatApp is a from-scratch, open-source Django full-stack application. It facilitates account creation, profile updates, random chat room participation, online user visibility, and private messaging capabilities etc.",
-    "github_repo": "https://github.com/dragon-devs/chatapp",
+    "github_repo": "https://github.com/SA926-COBRA/chatapp",
     "project_url": "",
     "tags": [
       "python",
@@ -114,7 +114,7 @@
   {
     "title": "Custom Tree",
     "description": "This project is for getting a beautiful custom tree of your project. I'm gonna update it more adding structuring and much more.",
-    "github_repo": "https://github.com/dragon-devs/custom-tree",
+    "github_repo": "https://github.com/SA926-COBRA/custom-tree",
     "project_url": "https://pypi.org/project/custom-tree/",
     "tags": [
       "python",
@@ -130,7 +130,7 @@
   {
     "title": "ftms-backend",
     "description": "Revolutionize football tournaments with our intuitive system. Seamlessly create, manage, and monitor competitions with React and Tailwind CSS frontend, backed by Django API. Effortlessly organize teams, schedule matches, and track tournament history with ease still in progress.",
-    "github_repo": "https://github.com/dragon-devs/ftms-backend",
+    "github_repo": "https://github.com/SA926-COBRA/ftms-backend",
     "project_url": "",
     "tags": [
       "python",
@@ -152,7 +152,7 @@
   {
     "title": "ftms-frontend",
     "description": "This is the frontend of ftms-backend(Football Tournament Management System)",
-    "github_repo": "https://github.com/dragon-devs/ftms-frontend",
+    "github_repo": "https://github.com/SA926-COBRA/ftms-frontend",
     "project_url": "",
     "tags": [
       "javascript",
@@ -177,7 +177,7 @@
   {
     "title": "Issue Tracker",
     "description": "Issue Tracker is a TypeScript-based web application built with Next.js and Prisma. It features seamless issue tracking, user authentication, and responsive design for versatile usability.",
-    "github_repo": "https://github.com/dragon-devs/issue-tracker",
+    "github_repo": "https://github.com/SA926-COBRA/issue-tracker",
     "project_url": "https://issue-tracker-ten-rose.vercel.app/issues/list",
     "tags": [
       "typescript",

@@ -1,8 +1,8 @@
 {
-  "my_name": "Salman Khan",
+  "my_name": "Sayan Acar",
   "job_title": "I'm a Full-Stack Web Developer",
   "title_description": "I make web apps.",
-  "experience_years": "4+",
+  "experience_years": "6+",
   "projects_completed_count": "15+",
   "about_me": "I am a skilled Full-Stack Developer with a specialization in Python, JavaScript, and TypeScript. My expertise includes Django DRF, React.js, Next.js, Vue.js, Nuxt.js and Express.js and more, along with experience in PostgreSQL, MongoDB, and MySQL. Passionate about learning, problem-solving, and coding, I aim to contribute to creating top-quality applications in an enterprise setting. In my current role as a Software Engineer, I deliver responsive and high-quality web applications, embracing the latest technologies and methodologies.",
   "quote": "Simplicity is the key to brilliance",
@@ -21,16 +21,16 @@
     "mobile app"
   ],
   "social_media": {
-    "github": "https://github.com/dragon-devs",
-    "gmail": "dragonfourtyseven@gmail.com",
-    "facebook": "",
-    "linkedin": "",
-    "instagram": "https://www.instagram.com/dragondevs_",
-    "twitter": "https://twitter.com/dragondevs_",
-    "behance": "",
-    "youtube": "",
-    "whatsapp": "+923466955928",
-    "other": ""
+    "github": "https://github.com/SA926-COBRA",
+    "gmail": "sayanacar926@gmail.com",
+    "facebook": "https://#",
+    "linkedin": "https://#",
+    "instagram": "https://#",
+    "twitter": "https://#",
+    "behance": "https://#",
+    "youtube": "https://#",
+    "whatsapp": "https://#",
+    "other": "https://#"
   },
   "skills": {
     "PYTHON": true,
